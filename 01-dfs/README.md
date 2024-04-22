@@ -4,6 +4,15 @@ Basic Depth First Search algorithm
 2. dfs_plotted.py
 Depth First Search algorithm plotted using matplotlib
 
+3. dfs_path_finding.py
+To find path
+
+4. dfs_spanning_tree.py
+To find spanning tree
+
+5. dfs_topological_sort.py
+Topological sorting of nodes
+
 
 Uses
 Graph Traversal:
