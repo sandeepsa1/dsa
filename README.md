@@ -6,3 +6,4 @@ Run scripts\activate to activate the virtual environment from dsa folder to run 
 List of code folders below:
 01-dfs						DFS algoritms and its different uses and variations. Traversal, path finding, topological sort and spanning tree
 02-bfs						BFS algoritms and its different uses and variations. Traversal and shortest path finding
+03-dijkstras_algorithm      Dijkstra's algorithm code to find shortest path of a directed graph

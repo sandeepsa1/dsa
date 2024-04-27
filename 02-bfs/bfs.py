@@ -11,7 +11,10 @@ def bfs(graph, start):
             visited.add(node)
             print(node)
             time.sleep(1)
+            #print(graph[node])
+            #print(graph[node] - visited)
             queue.extend(graph[node] - visited)
+            #print(queue)
 
 graph = {
     'A': {'B', 'C'},
