@@ -1,5 +1,5 @@
 ## Bellman-Ford algorithm
-    Bellman-Ford algorithm is used to find the shortest paths from a single source vertex to all other vertices in a weighted graph, including graphs with negative edge weights. It is particularly useful in scenarios where Dijkstra's algorithm cannot be applied due to the presence of negative edge weights.
+Bellman-Ford algorithm is used to find the shortest paths from a single source vertex to all other vertices in a weighted graph, including graphs with negative edge weights. It is particularly useful in scenarios where Dijkstra's algorithm cannot be applied due to the presence of negative edge weights.
 
 ### Uses
 1. Network routing: Finding the shortest path between two nodes in a computer network.
