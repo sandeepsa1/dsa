@@ -13,7 +13,6 @@ To find spanning tree
 5. dfs_topological_sort.py
 Topological sorting of nodes
 
-
 Uses
 Graph Traversal:
     DFS is primarily used for traversing or searching graphs. It starts at a selected node (the "root" or starting node) and explores as far as possible along each branch before backtracking. This traversal technique is useful for various graph-related problems, such as finding connected components, detecting cycles, and traversing paths.
