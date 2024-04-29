@@ -8,18 +8,18 @@ The entire `dsa` folder is organized as a single virtual environment. To activat
 ## Table of Contents
 
 - [Graph Theory](#graph-theory)
-  - [01-dfs](#depth-first-search-dfs)
-  - [02-bfs](#breadth-first-search-bfs)
-  - [03-dijkstras_algorithm](#dijkstras-algorithm)
+  - [01-dfs](#01-dfs)
+  - [02-bfs](#02-bfs)
+  - [03-dijkstras_algorithm](#03-dijkstras_algorithm)
 
 ## Graph Theory
 
-#### 01-dfs
+### 01-dfs
 This section contains DFS algorithms and their various uses and variations, including traversal, path finding, topological sort, and spanning trees.
 
-#### 02-bfs
+### 02-bfs
 Here, you'll find BFS algorithms and their different applications, including traversal and shortest path finding.
 
-#### 03-dijkstras_algorithm
+### 03-dijkstras_algorithm
 This folder contains code for Dijkstra's algorithm, used to find the shortest path in a directed graph
 
