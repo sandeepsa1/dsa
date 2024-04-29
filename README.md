@@ -20,7 +20,7 @@ This section contains DFS algorithms and their various uses and variations, incl
 Here, you'll find BFS algorithms and their different applications, including traversal and shortest path finding.
 
 ### 03-dijkstras-algorithm
-This folder contains code for Dijkstra's algorithm, used to find the shortest path in a directed graph
+This folder contains code for Dijkstra's algorithm, used to find the shortest path in a weighted graph
 
 ### 04-bellman-ford-algorithm
 Bellman-Ford algorithm to find the shortest paths from a single source vertex to all other vertices in a weighted graph, including graphs with negative edge weights.
