@@ -10,6 +10,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-bfs](#02-bfs)
   - [03-dijkstras_algorithm](#03-dijkstras-algorithm)
   - [04-bellman-ford-algorithm](#04-bellman-ford-algorithm)
+  - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
 
 ## Graph Theory
 
@@ -24,3 +25,6 @@ This folder contains code for Dijkstra's algorithm, used to find the shortest pa
 
 ### 04-bellman-ford-algorithm
 Bellman-Ford algorithm to find the shortest paths from a single source vertex to all other vertices in a weighted graph, including graphs with negative edge weights.
+
+### 05-floyd-warshall-algorithm
+Used to find the shortest paths between all pairs of vertices in a weighted graph, including graphs with negative edge weights (but with no negative cycles).
