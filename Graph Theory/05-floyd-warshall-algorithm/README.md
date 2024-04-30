@@ -13,6 +13,8 @@ Space complexity is O(V^2), which can be a limiting factor for large graphs.
 1. Initialization: Create n * n matrix with all values as infinity. Set diagonal values to 0. Update all non-zero values to the matrix.
 2. Iterative Updates: n iterations required. For each iteration a matrix is created like below.
 Eg: For first iteration, first row and column and diagonal 0 of the intitial matrix is retained. Then for each node it check if there exists a shortest path along the first node using the below formula.
+```python
+dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])
 If such path exists, the value is updated in the matrix.
 Similarly for kth iteration, k<sup>th</sup> row and column and diagonal 0 of the (k-1)<sup>th</sup> matrix is retained. hen for each node it check if there exists a shortest path along the k<sup>th</sup> node, as explained above.
 3. Handling Negative Cycles: After completing the iterations, the algorithm checks for negative cycles in the graph. A negative cycle occurs when the sum of the weights of the edges in a cycle is negative. If a negative cycle exists, it means that there is no shortest path between some pairs of vertices, as the path length can become increasingly negative by traversing the cycle repeatedly.
