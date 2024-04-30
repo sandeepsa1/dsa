@@ -4,6 +4,7 @@ Basic Breadth First Search algorithm
 2. bfs_shortest_path.py
 Use BFS to find shortest path
 
+
 Uses
 Shortest Path Finding:
     BFS can be used to find the shortest path between two nodes in an unweighted graph. It guarantees to find the shortest path if all edges have the same weight.
