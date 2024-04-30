@@ -11,8 +11,7 @@ Space complexity is O(V^2), which can be a limiting factor for large graphs.
 
 ### How it works
 1. Initialization: Create n * n matrix with all values as infinity. Set diagonal values to 0. Update all non-zero values to the matrix.
-2. Iterative Updates: n iterations required. For each iteration a matrix is created like below.
-Eg: For first iteration, first row and column and diagonal 0 of the intitial matrix is retained. Then for each node it check if there exists a shortest path along the first node using the formula, ```dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])```. If such path exists, the value is updated in the matrix.
-Similarly for kth iteration, k<sup>th</sup> row and column and diagonal 0 of the (k-1)<sup>th</sup> matrix is retained. hen for each node it check if there exists a shortest path along the k<sup>th</sup> node, as explained above.
+2. Iterative Updates: n iterations required. For each iteration the matrix is updated like below.
+Eg: First iteration checks for shortest path through node 1 for all the other pairs and updates the matrix using the formula, ```dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])```. Similarly k<sup>th</sup> iteration checks for shortest path through k<sup>th</sup> node and updates the matrix using the above formula.
 3. Handling Negative Cycles: After completing the iterations, the algorithm checks for negative cycles in the graph. A negative cycle occurs when the sum of the weights of the edges in a cycle is negative. If a negative cycle exists, it means that there is no shortest path between some pairs of vertices, as the path length can become increasingly negative by traversing the cycle repeatedly.
 4. Output: The final output of the algorithm is a matrix containing the shortest distances between all pairs of vertices. If there is no path between two vertices, the corresponding distance in the matrix remains infinity.
