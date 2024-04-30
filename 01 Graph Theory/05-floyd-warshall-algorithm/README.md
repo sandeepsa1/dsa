@@ -10,7 +10,7 @@ Space complexity is O(V^2), which can be a limiting factor for large graphs.
 4. Resource Allocation: The algorithm can be used in resource allocation problems, such as minimizing the cost of transporting goods between multiple locations or optimizing the use of resources in a distributed system.
 
 ### How it works
-1. Initialization: Create n * n matrix with all values as infinity. Set diagonal values to 0. Update all non-zero values to the matrix.
+1. Initialization: Create n * n matrix with all values as infinity. Set diagonal values to 0. Update all non-zero edge values to the matrix.
 2. Iterative Updates: n iterations required. For each iteration the matrix is updated like below.
 Eg: First iteration checks for shortest path through node 1 for all the other pairs and updates the matrix using the formula, ```dist[i][j] = min(dist[i][j], dist[i][k] + dist[k][j])```. Similarly k<sup>th</sup> iteration checks for shortest path through k<sup>th</sup> node and updates the matrix using the above formula.
 3. Handling Negative Cycles: After completing the iterations, the algorithm checks for negative cycles in the graph. A negative cycle occurs when the sum of the weights of the edges in a cycle is negative. If a negative cycle exists, it means that there is no shortest path between some pairs of vertices, as the path length can become increasingly negative by traversing the cycle repeatedly.
