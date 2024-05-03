@@ -14,6 +14,6 @@ Space complexity:   O(E + V)
 ### How it works
 1. Sort Edges by Weight: In ascending order
 2. Iterate Over Sorted Edges: For each edge:
-   1. Check if adding the edge to the MST forms a cycle. This is done by finding parent nodes of (u, v). For example in the given graph, on the third iteration (0, 2, 6) is considered. If we iteratively find the parent node of 0 or 2, at some point, we will get x == y (2 == 2). So this is a cycle. We skip this edge.
+   1. Check if adding the edge to the MST forms a cycle. This is done by finding parent nodes of the edge (u, v). For example in the given graph, on the third iteration (0, 2, 6) is considered. If we iteratively find the parent node of the points of this edge, at some point, we will get x == y (2 == 2). So this is a cycle. We skip this edge.
    2. If adding the edge does not create a cycle, add it to the MST.
 3. Show Minimum Spanning Tree as output
