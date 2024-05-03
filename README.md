@@ -11,6 +11,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [03-dijkstras_algorithm](#03-dijkstras-algorithm)
   - [04-bellman-ford-algorithm](#04-bellman-ford-algorithm)
   - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
+  - [06-kruskal-algorithm](#06-kruskal-algorithm)
 
 ## Graph Theory
 
@@ -28,3 +29,6 @@ Bellman-Ford algorithm to find the shortest paths from a single source vertex to
 
 ### 05-floyd-warshall-algorithm
 Used to find the shortest paths between all pairs of vertices in a weighted graph, including graphs with negative edge weights (but with no negative cycles).
+
+### 06-kruskal-algorithm
+Kruskal's algorithm to find a minimum spanning tree of a weighted graph. Works for disconnected graphs also.
