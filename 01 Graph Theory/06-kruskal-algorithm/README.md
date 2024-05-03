@@ -17,3 +17,10 @@ Space complexity:   O(E + V)
 i. Check if adding the edge to the MST forms a cycle. This is done by finding parent nodes of (u, v). For example in the given graph, on the third iteration (0, 2, 6) is considered. If we iteratively find the parent node of 0 or 2, at some point, we will get x == y (2 == 2). So this is a cycle. We skip this edge.
 ii. If adding the edge does not create a cycle, add it to the MST.
 3. Show Minimum Spanning Tree as output
+
+1. Item 1
+   1. Sub-item 1.1
+   2. Sub-item 1.2
+2. Item 2
+   1. Sub-item 2.1
+   2. Sub-item 2.2
