@@ -12,6 +12,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [04-bellman-ford-algorithm](#04-bellman-ford-algorithm)
   - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
   - [06-kruskal-algorithm](#06-kruskal-algorithm)
+  - [07-prims-algorithm](#07-prims-algorithm)
 
 ## Graph Theory
 
@@ -32,3 +33,6 @@ Used to find the shortest paths between all pairs of vertices in a weighted grap
 
 ### 06-kruskal-algorithm
 Kruskal's algorithm to find a minimum spanning tree of a weighted graph. Works for disconnected graphs also.
+
+### 07-prims-algorithm
+Prim's algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph.
