@@ -13,6 +13,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
   - [06-kruskal-algorithm](#06-kruskal-algorithm)
   - [07-prims-algorithm](#07-prims-algorithm)
+  - [08-a-star-algorithm](#08-a-star-algorithm)
 
 ## Graph Theory
 
@@ -23,7 +24,7 @@ This section contains DFS algorithms and their various uses and variations, incl
 Here, you'll find BFS algorithms and their different applications, including traversal and shortest path finding.
 
 ### 03-dijkstras-algorithm
-This folder contains code for Dijkstra's algorithm, used to find the shortest path in a weighted graph
+This folder contains code for Dijkstra's algorithm, used to find the shortest path in a weighted graph.
 
 ### 04-bellman-ford-algorithm
 Bellman-Ford algorithm to find the shortest paths from a single source vertex to all other vertices in a weighted graph, including graphs with negative edge weights.
@@ -36,3 +37,6 @@ Kruskal's algorithm to find a minimum spanning tree of a weighted graph. Works f
 
 ### 07-prims-algorithm
 Prim's algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph.
+
+### 08-a-star-algorithm
+Finds the shortest path in a weighted graph with the help of a heuristic function. A* is generally more efficient than other algorithms with good heuristic.
