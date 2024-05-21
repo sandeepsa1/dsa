@@ -7,7 +7,8 @@ A heuristic is a technique that guides problem-solving and decision-making proce
    2. Best case: 𝑂(d)
 2. Space complexity:
    1. Worst case: 𝑂(b<sup>d</sup>)</br>
-b is the the average number of successors per state. d is the depth of the shortest path
+
+b is the the average number of successors per state. d is the depth of the shortest path.
 
 
 ### Uses
