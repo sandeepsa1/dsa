@@ -1,12 +1,12 @@
 ## A* algorithm
-The A* algorithm works by combining features of Dijkstra's algorithm and Greedy Best-First-Search. It uses a heuristic function to guide the search for the shortest path. The "A*" (A-star) symbol in the A* search algorithm represents a star and is used to denote an improvement or enhancement over previous algorithms.
+The A* algorithm works by combining features of Dijkstra's algorithm and Greedy Best-First-Search. It uses a heuristic function to guide the search for the shortest path. The "A*" (A-star) symbol in the A* search algorithm represents a star and is used to denote an improvement or enhancement over previous algorithms.</br>
 A heuristic is a technique that guides problem-solving and decision-making processes. In the context of algorithms like A*, a heuristic provides an estimate of the cost or distance from a given state to the goal state. This estimate helps guide the search towards the goal in a more efficient manner.
 
 1. Time complexity:
    1. Worst case: 𝑂(b<sup>d</sup>)
    2. Best case: 𝑂(d)
 2. Space complexity:
-   1. Worst case: 𝑂(b<sup>d</sup>)
+   1. Worst case: 𝑂(b<sup>d</sup>)</br>
 b is the the average number of successors per state. d is the depth of the shortest path
 
 
