@@ -15,6 +15,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [07-prims-algorithm](#07-prims-algorithm)
   - [08-a-star-algorithm](#08-a-star-algorithm)
   - [09-topological-sort](#09-topological-sort)
+  - [10-tarjans-algorithm](#10-tarjans-algorithm)
 
 ## Graph Theory
 
@@ -42,5 +43,5 @@ Prim's algorithm is a greedy algorithm used to find the minimum spanning tree (M
 ### 08-a-star-algorithm
 Finds the shortest path in a weighted graph with the help of a heuristic function. A* is generally more efficient than other algorithms with good heuristic.
 
-### 09-topological-sort
-This repository contains the implementation of the topological sort algorithm for a directed acyclic graph (DAG).
+### 10-tarjans-algorithm
+Tarjan's Algorithm to find all strongly connected components (SCCs) in a directed graph.
