@@ -16,6 +16,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [08-a-star-algorithm](#08-a-star-algorithm)
   - [09-topological-sort](#09-topological-sort)
   - [10-tarjans-algorithm](#10-tarjans-algorithm)
+  - [11-johnsons-algorithm](#11-johnsons-algorithm)
 
 ## Graph Theory
 
@@ -45,3 +46,6 @@ Finds the shortest path in a weighted graph with the help of a heuristic functio
 
 ### 10-tarjans-algorithm
 Tarjan's Algorithm to find all strongly connected components (SCCs) in a directed graph.
+
+### 11-johnsons-algorithm
+Johnson's algorithm to find the shortest paths between all pairs of vertices in a weighted graph. Johnson's algorithm is particularly efficient for sparse graphs and works with negative weights, provided there are no negative weight cycles.
