@@ -20,15 +20,15 @@ This project implements the Ford-Fulkerson algorithm using an adjacency list to 
 ### Key Concepts
 1. Flow Network:
    - A directed graph where each edge has a capacity and each edge receives a flow.
-  - The amount of flow on an edge cannot exceed the capacity of the edge.
-  - Typically, a source node (s) where the flow originates and a sink node (t) where the flow is collected.
+   - The amount of flow on an edge cannot exceed the capacity of the edge.
+   - Typically, a source node (s) where the flow originates and a sink node (t) where the flow is collected.
 2. Residual Graph:
-  - Constructed from the original flow network.
-  - Shows the available capacity on each edge after considering the current flow.
-  - Contains forward edges (original direction) and backward edges (reverse direction for potential cancellation of flow).
+   - Constructed from the original flow network.
+   - Shows the available capacity on each edge after considering the current flow.
+   - Contains forward edges (original direction) and backward edges (reverse direction for potential cancellation of flow).
 3. Augmenting Path:
-  - A path from the source to the sink in the residual graph where the available capacity is greater than zero on all edges in the path.
-  - Used to increase the overall flow in the network.
+   - A path from the source to the sink in the residual graph where the available capacity is greater than zero on all edges in the path.
+   - Used to increase the overall flow in the network.
 
 ### How it works
 1. Initialization:
