@@ -17,6 +17,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [09-topological-sort](#09-topological-sort)
   - [10-tarjans-algorithm](#10-tarjans-algorithm)
   - [11-johnsons-algorithm](#11-johnsons-algorithm)
+  - [12-ford-fulkerson-algorithm](#12-ford-fulkerson-algorithm)
 
 ## Graph Theory
 
@@ -49,3 +50,6 @@ Tarjan's Algorithm to find all strongly connected components (SCCs) in a directe
 
 ### 11-johnsons-algorithm
 Johnson's algorithm to find the shortest paths between all pairs of vertices in a weighted graph. Johnson's algorithm is particularly efficient for sparse graphs and works with negative weights, provided there are no negative weight cycles.
+
+### 12-ford-fulkerson-algorithm
+This project implements the Ford-Fulkerson algorithm using an adjacency list to compute the maximum flow in a flow network. It computes the maximum flow in a flow network efficiently, making it suitable for large and sparse graphs.
