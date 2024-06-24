@@ -34,7 +34,7 @@ This project implements the Ford-Fulkerson algorithm using an adjacency list to 
 1. Initialization:
    1. Start with zero flow in all edges.
 2. Find Augmenting Path:
-   1. Use a search algorithm (BFS in this case) to find a path from the source to the sink in the residual graph where every edge has a positive residual capacity.
+   1. Use a search algorithm (DFS in this case) to find a path from the source to the sink in the residual graph where every edge has a positive residual capacity.
 3. Augment Flow:
    1. Determine the maximum amount of flow that can be sent along the augmenting path (this is the minimum residual capacity of the edges in the path).
    1. Increase the flow along the forward edges and decrease the flow along the backward edges of the augmenting path.
