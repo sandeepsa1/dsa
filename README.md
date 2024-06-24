@@ -56,4 +56,4 @@ Johnson's algorithm to find the shortest paths between all pairs of vertices in 
 This project implements the Ford-Fulkerson algorithm using an adjacency list to compute the maximum flow in a flow network. It computes the maximum flow in a flow network efficiently, making it suitable for large and sparse graphs.
 
 ### 13-edmonds-karp-algorithm
-Edmonds-Karp algorithm using an adjacency list to compute the maximum flow in a flow network. Difference with Ford-Fulkerson algorithm is the specific use of BFS to find the shortest augmenting paths, making Edmonds-Karp algorithm more efficient.
+Edmonds-Karp algorithm using an adjacency list to compute the maximum flow in a flow network. Difference with Ford-Fulkerson algorithm is the specific use of BFS in Edmonds-Karp algorithm to find the shortest augmenting paths, making this more efficient.
