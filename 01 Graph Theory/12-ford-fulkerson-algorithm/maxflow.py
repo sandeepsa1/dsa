@@ -11,17 +11,16 @@ class Graph:
         self.capacity[(u, v)] = w
         self.capacity[(v, u)] = 0  # Reverse edge initially has 0 capacity
 
-    def bfs(self, s, t, parent):
+    def dfs(self, s, t, parent):
         visited = set()
-        queue = deque([s])
-        visited.add(s)
+        stack = [s]
 
-        while queue:
-            u = queue.popleft()
+        while stack:
+            u = stack.pop()
 
             for v in self.graph[u]:
                 if v not in visited and self.capacity[(u, v)] > 0:
-                    queue.append(v)
+                    stack.append(v)
                     visited.add(v)
                     parent[v] = u
 
@@ -34,7 +33,7 @@ class Graph:
         parent = {}
         max_flow = 0
 
-        while self.bfs(source, sink, parent):
+        while self.dfs(source, sink, parent):
             path_flow = float('Inf')
             s = sink
 
@@ -54,7 +53,6 @@ class Graph:
         return max_flow
 
 if __name__ == "__main__":
-    g = Graph()
     g = Graph()
     g.add_edge('S', 'A', 10)
     g.add_edge('S', 'C', 10)
