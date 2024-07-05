@@ -20,6 +20,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [12-ford-fulkerson-algorithm](#12-ford-fulkerson-algorithm)
   - [13-edmonds-karp-algorithm](#13-edmonds-karp-algorithm)
   - [14-dinics-algorithm](#14-dinics-algorithm)
+  - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
 
 ## Graph Theory
 
@@ -61,3 +62,6 @@ Edmonds-Karp algorithm using an adjacency list to compute the maximum flow in a 
 
 ### 14-dinics-algorithm
 Dinic's algorithm is an efficient algorithm for computing the maximum flow in a flow network. It uses a combination of Breadth-First Search (BFS) to construct level graphs and Depth-First Search (DFS) to send flow along these level graphs.
+
+### 15-hopcroft-karp-algorithm
+Hopcroft-Karp algorithm to find the maximum matching in a bipartite graph.
