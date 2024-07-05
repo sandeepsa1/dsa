@@ -33,5 +33,5 @@ A bipartite graph is a graph whose vertices can be divided into two disjoint set
 3. <b>Resource Allocation</b>: Eg - Assigning delivery vehicles to routes based on capacity and demand.
 4. <b>Scheduling</b>: Eg - Creating tournament schedules to avoid conflicts and maximize the number of matches.
 
-https://www.youtube.com/watch?v=n7r4Dp6cVg8
+https://www.youtube.com/watch?v=n7r4Dp6cVg8</br>
 https://www.youtube.com/watch?v=GhjwOiJ4SqU
