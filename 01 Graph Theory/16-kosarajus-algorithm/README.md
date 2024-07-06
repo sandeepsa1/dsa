@@ -35,4 +35,4 @@ A strongly connected component of a directed graph is a maximal subgraph where e
    - <b>Tarjan's</b>: More efficient in terms of space as it does not require transposing the graph. <b>It is ideal when minimizing space usage is crucial</b>. However, it is more complex to implement due to the need to maintain and update low-link values and handle the stack correctly.
    - <b>Kosaraju's</b>: <b>Suitable when the graph representation can be easily transposed, and a straightforward implementation is preferred</b>. It is often easier to understand and implement due to its clear separation of the two DFS passes.
 
-https://www.youtube.com/watch?v=R6uoSjZ2imo&t=11s
+https://www.youtube.com/watch?v=R6uoSjZ2imo
