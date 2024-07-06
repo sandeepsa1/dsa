@@ -21,6 +21,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [13-edmonds-karp-algorithm](#13-edmonds-karp-algorithm)
   - [14-dinics-algorithm](#14-dinics-algorithm)
   - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
+  - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
 
 ## Graph Theory
 
@@ -65,3 +66,6 @@ Dinic's algorithm is an efficient algorithm for computing the maximum flow in a 
 
 ### 15-hopcroft-karp-algorithm
 Hopcroft-Karp algorithm to find the maximum matching in a bipartite graph.
+
+### 16-kosarajus-algorithm
+Kosaraju's Algorithm to find all strongly connected components (SCCs) in a directed graph. Compared to Tarjan's Algorithm, this is relatively straightforward and easier to understand.
