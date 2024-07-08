@@ -22,6 +22,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [14-dinics-algorithm](#14-dinics-algorithm)
   - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
   - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
+  - [17-kahns-algorithm](#17-kahns-algorithm)
 
 ## Graph Theory
 
@@ -69,3 +70,6 @@ Hopcroft-Karp algorithm to find the maximum matching in a bipartite graph.
 
 ### 16-kosarajus-algorithm
 Kosaraju's Algorithm to find all strongly connected components (SCCs) in a directed graph. Compared to Tarjan's Algorithm, this is relatively straightforward and easier to understand.
+
+### 17-kahns-algorithm
+Kahn's algorithm is used for topological sorting of a directed acyclic graph (DAG). It works by repeatedly removing nodes with no incoming edges and appending them to the topological order.
