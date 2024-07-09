@@ -23,6 +23,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
   - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
   - [17-kahns-algorithm](#17-kahns-algorithm)
+  - [18-hungarian-algorithm](#18-hungarian-algorithm)
 
 ## Graph Theory
 
@@ -73,3 +74,6 @@ Kosaraju's Algorithm to find all strongly connected components (SCCs) in a direc
 
 ### 17-kahns-algorithm
 Kahn's algorithm is used for topological sorting of a directed acyclic graph (DAG). It works by repeatedly removing nodes with no incoming edges and appending them to the topological order.
+
+### 18-hungarian-algorithm
+The Hungarian algorithm, also known as the Kuhn-Munkres algorithm, is used for solving the assignment problem, which involves finding the optimal way to assign n tasks that involves a cost(weight), to n agents such that the total cost is minimized.
