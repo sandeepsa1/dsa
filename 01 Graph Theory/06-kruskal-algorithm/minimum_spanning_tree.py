@@ -1,4 +1,4 @@
-# find and union methods are part of the Disjoint Set data structure, which is critical in finding the MST
+# find and union methods are part of the Disjoint Set data structure, which is critical in finding the MST.
 def find(parent, i):
     if parent[i] == i:
         return i
