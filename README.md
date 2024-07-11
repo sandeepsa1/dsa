@@ -24,6 +24,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
   - [17-kahns-algorithm](#17-kahns-algorithm)
   - [18-hungarian-algorithm](#18-hungarian-algorithm)
+  - [19-viterbi-algorithm](#19-viterbi-algorithm)
 
 ## Graph Theory
 
@@ -77,3 +78,6 @@ Kahn's algorithm is used for topological sorting of a directed acyclic graph (DA
 
 ### 18-hungarian-algorithm
 The Hungarian algorithm, also known as the Kuhn-Munkres algorithm, is used for solving the assignment problem, which involves finding the optimal way to assign n tasks that involves a cost(weight), to n agents such that the total cost is minimized.
+
+### 19-viterbi-algorithm
+The Viterbi algorithm is a dynamic programming algorithm used to find the most likely sequence of hidden states (also known as the Viterbi path) that results in a sequence of observed events, especially in the context of hidden Markov models (HMMs).
