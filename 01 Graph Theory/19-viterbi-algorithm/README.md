@@ -19,6 +19,6 @@ Viterbi algorithm is not typically classified as a part of graph theory; instead
    - Trace back the path to get the most probable sequence.
 
 ### Uses
-The Viterbi algorithm is widely used in various applications, including speech recognition, bioinformatics, and decoding of convolutional codes in telecommunications.
+Viterbi algorithm is widely used in various applications, including speech recognition, bioinformatics, and decoding of convolutional codes in telecommunications.
 
 https://www.youtube.com/watch?v=IqXdjdOgXPM
