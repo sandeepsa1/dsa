@@ -1,9 +1,10 @@
+# find and union methods are part of the Disjoint Set data structure, which is critical in finding the MST
 def find(parent, i):
     if parent[i] == i:
         return i
     return find(parent, parent[i])
 
-def union(parent, rank, x, y): # To find if the new edge forms a cycle
+def union(parent, rank, x, y):
     x_root = find(parent, x)
     y_root = find(parent, y)
     # print((x_root, y_root))

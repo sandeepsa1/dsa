@@ -24,3 +24,5 @@ Space complexity:   O(E + V)
 A Disjoint Set (or Union-Find) data structure is used to keep track of which vertices are in which components (trees). This helps in efficiently checking if two vertices are in the same tree and merging trees. It is a combination of 2 primary operations:
    - <b>Find</b>: Determine which subset a particular element is in. This can be used to check if two elements are in the same subset.
    - <b>Union</b>: Join two subsets into a single subset.
+
+In Kruskal's algorithm, the disjoint set data structure is used to manage and merge the sets of vertices efficiently. Each vertex starts in its own set, and as edges are processed, the find operation checks if two vertices are in different sets (to avoid cycles), while the union operation merges the sets when an edge is added to the Minimum Spanning Tree (MST). This ensures that the MST is built without forming cycles and maintains optimal performance.
