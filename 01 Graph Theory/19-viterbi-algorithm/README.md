@@ -1,7 +1,7 @@
 ## Viterbi Algorithm
 The Viterbi algorithm is a dynamic programming algorithm used to find the most likely sequence of hidden states (also known as the Viterbi path) that results in a sequence of observed events, especially in the context of hidden Markov models (HMMs).</br></br>
 
-The Viterbi algorithm is not typically classified as a part of graph theory; instead, it is primarily used in the context of dynamic programming and probabilistic modeling, especially within the field of hidden Markov models (HMMs). However, it can be related to graph theory in a conceptual way, as it involves finding the most likely path through a sequence of states, which can be visualized as a path-finding problem on a graph where nodes represent states and edges represent transitions with associated probabilities.</br>
+Viterbi algorithm is not typically classified as a part of graph theory; instead, it is primarily used in the context of dynamic programming and probabilistic modeling. However, it can be related to graph theory in a conceptual way, as it involves finding the most likely path through a sequence of states, which can be visualized as a path-finding problem on a graph where nodes represent states and edges represent transitions with associated probabilities.</br>
 
 1. Time complexity: <b>𝑂(T.N<sup>3</sup>>)</b>
 2. Space complexity: <b>𝑂(n<sup>2</sup>>)</b>
