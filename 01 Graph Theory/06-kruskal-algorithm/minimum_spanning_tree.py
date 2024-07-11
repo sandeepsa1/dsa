@@ -6,6 +6,7 @@ def find(parent, i):
 def union(parent, rank, x, y): # To find if the new edge forms a cycle
     x_root = find(parent, x)
     y_root = find(parent, y)
+    # print((x_root, y_root))
 
     if rank[x_root] < rank[y_root]:
         parent[x_root] = y_root
@@ -15,33 +16,27 @@ def union(parent, rank, x, y): # To find if the new edge forms a cycle
         parent[y_root] = x_root
         rank[x_root] += 1
 
-def kruskal(V, graph):
-    result = []
-    i = 0
-    e = 0
-    graph = sorted(graph, key=lambda item: item[2])
-    #print(graph)
-    parent = [j for j in range(V)] # [0, 1, 2, 3]
-    rank = [0] * V  # [0, 0, 0, 0]
+def kruskal(n, graph):
+    parent = list(range(n)) # [0, 1, 2, 3]
+    rank = [0] * n # [0, 0, 0, 0]
+    
+    graph.sort(key=lambda edge: edge[2])
+    
+    mst = []
+    mst_cost = 0
 
-    while e < V - 1:
-        u, v, w = graph[i]
-        #print([u, v, w])
-        i += 1
-        x = find(parent, u)
-        y = find(parent, v)
-        print([u, v, x, y])
+    for u, v, weight in graph:
+        # print(parent)
+        if find(parent, u) != find(parent, v):
+            union(parent, rank, u, v)
+            mst.append((u, v, weight))
+            mst_cost += weight
 
-        if x != y:
-            e += 1
-            result.append([u, v, w])
-            union(parent, rank, x, y)
+    return mst, mst_cost
 
-    print("Edges in the MST:")
-    for u, v, weight in result:
-        print(f"{u} -- {v} == {weight}")
-
-V = 4
+n = 4
 graph = [(0, 1, 10), (0, 2, 6), (0, 3, 5), (1, 3, 15), (2, 3, 4)]
 
-kruskal(V, graph)
+mst, mst_cost = kruskal(n, graph)
+print(f"Minimum Spanning Tree: {mst}")
+print(f"Cost of Minimum Spanning Tree: {mst_cost}")
