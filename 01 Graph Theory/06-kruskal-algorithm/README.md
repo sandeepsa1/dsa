@@ -22,5 +22,5 @@ Space complexity:   O(E + V)
 ### Key Concept
 1. Disjoint Set (Union-Find):
 A Disjoint Set (or Union-Find) data structure is used to keep track of which vertices are in which components (trees). This helps in efficiently checking if two vertices are in the same tree and merging trees. It is a combination of 2 primary operations:
-   - Find: Determine which subset a particular element is in. This can be used to check if two elements are in the same subset.
-   - Union: Join two subsets into a single subset.
+   - <b>Find</b>: Determine which subset a particular element is in. This can be used to check if two elements are in the same subset.
+   - <b>Union</b>: Join two subsets into a single subset.
