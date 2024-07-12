@@ -25,6 +25,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [17-kahns-algorithm](#17-kahns-algorithm)
   - [18-hungarian-algorithm](#18-hungarian-algorithm)
   - [19-viterbi-algorithm](#19-viterbi-algorithm)
+  - [20-pagerank-algorithm](#20-pagerank-algorithm)
 
 ## Graph Theory
 
@@ -81,3 +82,6 @@ The Hungarian algorithm, also known as the Kuhn-Munkres algorithm, is used for s
 
 ### 19-viterbi-algorithm
 The Viterbi algorithm is a dynamic programming algorithm used to find the most likely sequence of hidden states (also known as the Viterbi path) that results in a sequence of observed events, especially in the context of hidden Markov models (HMMs).
+
+### 20-pagerank-algorithm
+PageRank is an algorithm used to rank web pages in search engine results.
