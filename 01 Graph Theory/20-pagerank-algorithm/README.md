@@ -17,9 +17,9 @@ I is the number of iterations, E is the number of edges, and n is the number of 
 ### PageRank Formula
 The PageRank <b>PR(P)</b> of a page <b>P</b> is given by the following formula:
 
-$\[ 
+$\ 
 PR(P) = \frac{1-d}{N} + d \left( \sum_{i \in L(P)} \frac{PR(i)}{C(i)} \right)
-\]$
+\$
 
 
 $\[\text{PR(P)} = \frac{1-d}{N} + d \left( \sum_{i \in L(P)} \right)   \]$
