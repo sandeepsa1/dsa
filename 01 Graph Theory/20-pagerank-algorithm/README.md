@@ -22,7 +22,7 @@ PR(P) = \frac{1-d}{N} + d \left( \sum_{i \in L(P)} \frac{PR(i)}{C(i)} \right)
 \]
 
 
-$\[\PR(P) = \frac{1-d}{1-d}\]$
+$\[\text{PR(P)} = \frac{1-d}{N} + d \left( 111 \right)   \]$
 
 - <b>PR(P)</b>: The PageRank of page \( P \).
 - <b>d</b>: Damping factor, usually set to 0.85. It represents the probability that a user will continue clicking on links.
