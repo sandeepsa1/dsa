@@ -17,16 +17,16 @@ def union(parent, rank, x, y):
         parent[y_root] = x_root
         rank[x_root] += 1
 
-def kruskal(n, graph):
+def kruskal(n, edges):
     parent = list(range(n)) # [0, 1, 2, 3]
     rank = [0] * n # [0, 0, 0, 0]
     
-    graph.sort(key=lambda edge: edge[2])
+    edges.sort(key=lambda edge: edge[2])
     
     mst = []
     mst_cost = 0
 
-    for u, v, weight in graph:
+    for u, v, weight in edges:
         # print(parent)
         if find(parent, u) != find(parent, v):
             union(parent, rank, u, v)
@@ -36,8 +36,8 @@ def kruskal(n, graph):
     return mst, mst_cost
 
 n = 4
-graph = [(0, 1, 10), (0, 2, 6), (0, 3, 5), (1, 3, 15), (2, 3, 4)]
+edges = [(0, 1, 10), (0, 2, 6), (0, 3, 5), (1, 3, 15), (2, 3, 4)]
 
-mst, mst_cost = kruskal(n, graph)
+mst, mst_cost = kruskal(n, edges)
 print(f"Minimum Spanning Tree: {mst}")
 print(f"Cost of Minimum Spanning Tree: {mst_cost}")
