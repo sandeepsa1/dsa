@@ -17,9 +17,15 @@ Prim's algorithm is not useful to find MST of disconnected graphs, where as Krus
 5. Spanning tree applications: Minimum spanning trees have various applications in computer science and engineering, including in circuit design, image processing, and game theory.
 
 ### How it works
-1. Initialize: Initialize an empty set to keep track of vertices included in the MST and an array key to store the minimum weight edge connecting a vertex to the MST.
-2. Iterate Over all Vertices: For each vertex:
-   1. Pick the vertex u which is not yet included in the MST and has the minimum key value.
-   2. Add u to the MST by setting in_mst[u] = True.
-   3. Update the key values of adjacent vertices of u if they are not in the MST and if the weight of the edge connecting them to u is less than their current key values.
+Prim's algorithm effectively grows the MST by starting from an arbitrary vertex and continuously adding the smallest edge that extends the MST until all vertices are included. It uses a priority queue to efficiently select the next smallest edge, ensuring the MST has the minimum total weight.</br>
+
+1. Initialization:
+   - Start with a single vertex (typically vertex 0).
+   - Use a priority queue (min-heap) to store the edges connected to the MST, with their weights as the priority.
+   - Mark the starting vertex as part of the MST and initialize the MST cost to 0.
+2. Growing the MST(While there are still vertices not in the MST):
+   - Extract the edge with the smallest weight from the priority queue.
+   - If the vertex connected by this edge is not yet in the MST, add the edge to the MST.
+   - Mark the new vertex as part of the MST and add the cost of the edge to the total MST cost.
+   - Add all edges connected to this new vertex to the priority queue, if they lead to vertices not yet in the MST.
 3. Show Minimum Spanning Tree as output
