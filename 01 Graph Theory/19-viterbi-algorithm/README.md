@@ -8,7 +8,7 @@ Viterbi algorithm is not typically classified as a part of graph theory; instead
 <b>T</b> is the number of observations and <b>N</b> is the number of states.
 
 
-### Steps of the Hungarian Algorithm
+### How this works
 1. Initialization:
    - Initialize the starting probabilities.
 2. Recursion:
