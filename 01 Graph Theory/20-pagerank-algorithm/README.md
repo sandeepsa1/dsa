@@ -2,7 +2,7 @@
 PageRank is an algorithm used to rank web pages in search engine results. Developed by Larry Page and Sergey Brin, the founders of Google, it works by counting the number and quality of links to a page to determine a rough estimate of the website's importance. The underlying assumption is that more important websites are likely to receive more links from other websites.</br>
 
 1. Time complexity: <b>𝑂(I. (E + n) )</b>
-2. Space complexity: <b>𝑂(E + n)</b>
+2. Space complexity: <b>𝑂(E + n)</b></br>
 I is the number of iterations, E is the number of edges, and n is the number of nodes.
 
 
@@ -15,18 +15,21 @@ I is the number of iterations, E is the number of edges, and n is the number of 
    - To model the probability that a user continues clicking links, a damping factor (typically 0.85) is used. There is a 15% chance that the user will jump to a random page instead of following a link.
 
 ### PageRank Formula
-The PageRank \( PR(P) \) of a page \( P \) is given by the following formula:
+The PageRank <b>PR(P)</b> of a page <b>P</b> is given by the following formula:
 
 \[ 
 PR(P) = \frac{1-d}{N} + d \left( \sum_{i \in L(P)} \frac{PR(i)}{C(i)} \right)
 \]
 
-- \( PR(P) \): The PageRank of page \( P \).
-- \( d \): Damping factor, usually set to 0.85. It represents the probability that a user will continue clicking on links.
-- \( N \): Total number of pages in the network.
-- \( L(P) \): Set of pages that link to page \( P \).
-- \( PR(i) \): PageRank of page \( i \) that links to page \( P \).
-- \( C(i) \): Number of outbound links on page \( i \).
+
+$\[\PR(P) = \frac{1-d}{1-d}\]$
+
+- <b>PR(P)</b>: The PageRank of page \( P \).
+- <b>d</b>: Damping factor, usually set to 0.85. It represents the probability that a user will continue clicking on links.
+- <b>N</b>: Total number of pages in the network.
+- <b>L(P)</b>: Set of pages that link to page \( P \).
+- <b>PR(i)</b>: PageRank of page \( i \) that links to page \( P \).
+- <b>C(i)</b>: Number of outbound links on page \( i \).
 
 ### How this works
 1. Initialization:
