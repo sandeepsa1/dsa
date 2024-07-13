@@ -9,27 +9,41 @@ def bfs_shortest_path(graph, start, end):
 
     while queue:
         node, path = queue.popleft()
-        visited.add(node)
 
-        for neighbor in graph[node]:
-            if neighbor not in visited:
-                if neighbor == end:
-                    return path + [node, neighbor]
-                else:
+        # Unlike BFS which checks, if node is visited immedietly after pop();
+        # for shortest path, check for end should happen before visited check
+        if node == end:
+            return path + [node]
+
+        if node not in visited:
+            visited.add(node)
+            for neighbor in graph.get(node, []):
+                if neighbor not in visited:
                     queue.append((neighbor, path + [node]))
     return None
 
 graph = {
+    'A': ['B', 'C'],
+    'B': ['D', 'E'],
+    'C': ['F', 'G'],
+    'D': ['H'],
+    'E': [],
+    'F': ['I'],
+    'G': ['J'],
+    'J': ['K']
+}
+
+'''graph = {
     'A': ['B', 'C'],
     'B': ['A', 'D', 'E'],
     'C': ['A', 'F'],
     'D': ['B'],
     'E': ['B', 'F'],
     'F': ['C', 'E']
-}
+}'''
 
 start_node = 'A'
-end_node = 'F'
+end_node = 'K'
 shortest_path = bfs_shortest_path(graph, start_node, end_node)
 
 if shortest_path:
