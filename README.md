@@ -26,6 +26,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [18-hungarian-algorithm](#18-hungarian-algorithm)
   - [19-viterbi-algorithm](#19-viterbi-algorithm)
   - [20-pagerank-algorithm](#20-pagerank-algorithm)
+  - [21-second-shortest-path-unweighted-graph](#21-second-shortest-path-unweighted-graph)
 
 ## Graph Theory
 
@@ -85,3 +86,6 @@ The Viterbi algorithm is a dynamic programming algorithm used to find the most l
 
 ### 20-pagerank-algorithm
 PageRank is an algorithm used to rank web pages in search engine results.
+
+### 21-second-shortest-path-unweighted-graph
+Find the second shortest path in an unweighted graph using BFS.
