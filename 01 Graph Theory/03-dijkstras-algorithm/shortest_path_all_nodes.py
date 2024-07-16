@@ -16,7 +16,7 @@ def dijkstra(graph, start):
             continue
         
         # Update distances to child nodes
-        children = graph[curr_node].items()
+        children = graph[curr_node].items() # For dictionary
         for (child, weight) in children:
             if((node_dist + weight) < distances[child]):
                 distances[child] = node_dist + weight
