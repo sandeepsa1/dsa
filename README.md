@@ -27,6 +27,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [19-viterbi-algorithm](#19-viterbi-algorithm)
   - [20-pagerank-algorithm](#20-pagerank-algorithm)
   - [21-second-shortest-path-unweighted-graph](#21-second-shortest-path-unweighted-graph)
+  - [22-second-shortest-path-weighted-graph](#22-second-shortest-path-weighted-graph)
 
 ## Graph Theory
 
@@ -89,3 +90,6 @@ PageRank is an algorithm used to rank web pages in search engine results.
 
 ### 21-second-shortest-path-unweighted-graph
 Find the second shortest path in an unweighted graph using BFS.
+
+### 22-second-shortest-path-weighted-graph
+Find the second shortest path in a weighted graph using Dijkstra's algorithm.
