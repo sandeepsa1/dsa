@@ -28,6 +28,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [20-pagerank-algorithm](#20-pagerank-algorithm)
   - [21-second-shortest-path-unweighted-graph](#21-second-shortest-path-unweighted-graph)
   - [22-second-shortest-path-weighted-graph](#22-second-shortest-path-weighted-graph)
+  - [23-second-best-spanning-tree](#23-second-best-spanning-tree)
 
 ## Graph Theory
 
@@ -93,3 +94,6 @@ Find the second shortest path in an unweighted graph using BFS.
 
 ### 22-second-shortest-path-weighted-graph
 Find the second shortest path in a weighted graph using Dijkstra's algorithm.
+
+### 23-second-best-spanning-tree
+Find the second-best spanning tree (SBST) of a graph.
