@@ -27,14 +27,14 @@ def a_star(graph, start, goal, heuristic):
                 came_from[neighbor] = current
                 g_score[neighbor] = tentative_g_score
                 f_score[neighbor] = g_score[neighbor] + heuristic(neighbor, goal)
-                heapq.heappush(open_list, (f_score[neighbor], neighbor))
+                if neighbor not in [i[1] for i in open_list]:
+                    heapq.heappush(open_list, (f_score[neighbor], neighbor))
     
     return None
 
 def heuristic(a, b):
-    (x1, y1) = a
-    (x2, y2) = b
-    return abs(x1 - x2) + abs(y1 - y2)
+    # Example heuristic: Manhattan distance
+    return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
 '''graph = { # A simple graph
     (0, 0): [((0, 1), 1), ((1, 0), 1)],

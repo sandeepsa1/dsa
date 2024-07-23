@@ -31,15 +31,22 @@ b is the the average number of successors per state. d is the depth of the short
 7. Puzzle Solving: Puzzles like 8-Puzzle and 15-Puzzle, Rubik’s Cube
 
 ### How it works
-1. Initialize: Add the start node to the open list with its f-score.
+1. Initialize:
+   1. Create two lists: open list (nodes to be evaluated) and closed list (nodes already evaluated). Start by adding the initial node to the open list.
+   2. Initialize two maps: 'g' for the cost from the start node to the current node and 'f' for the estimated cost from the start node to the goal through the current node.
 2. Iterate:
-   1. Remove the node with the lowest f-score from the open list.
-   2. If this node is the goal, the path has been found.
-   3. Otherwise, generate its neighbors. For each neighbor:
-      1. Calculate g(n) and h(n).
-      2. If this path to the neighbor is better than any previous one, update its f-score and parent.
-      3. Add the neighbor to the open list if it's not already there.
-3. Repeat until the goal is reached or the open list is empty (indicating no path exists).
+   1. While the open list is not empty:
+      1. Select the node with the lowest 'f' value from the open list.
+      2. If this node is the goal, reconstruct and return the path.
+      3. Move the current node to the closed list.
+3. Evaluate Neighbors:
+   1. For each neighbor of the current node:
+      1. If the neighbor is in the closed list, ignore it.
+      2. Calculate tentative 'g' value (cost to move from the start node to the neighbor through the current node).
+      3. If the neighbor is not in the open list or the tentative 'g' value is lower than the previously recorded 'g' value:
+         1. Update the 'g' and 'f' values for the neighbor.
+         2. Set the current node as the neighbor's parent.
+         3. If the neighbor is not in the open set, add it.
 
 ### Properties of A*
 1. Optimality: A* is guaranteed to find the shortest path if the heuristic function h(n) is admissible (never overestimates the true cost) and consistent (satisfies the triangle inequality).
