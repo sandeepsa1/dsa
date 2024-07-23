@@ -100,4 +100,4 @@ Find the second shortest path in a weighted graph using Dijkstra's algorithm.
 Find the second-best spanning tree (SBST) of a graph.
 
 ### 24-longest-path-unweighted-graph
-Find the longest path in an unweighted graph using DFS.
+Find the longest path in an unweighted graph using DFS with memoization.
