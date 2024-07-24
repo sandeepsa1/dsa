@@ -1,19 +1,19 @@
-def DFS(graph, v, visited, stack):
-    #print(v)
-    visited[v] = True
-    for u in graph[v]:
-        if not visited[u]:
-            DFS(graph, u, visited, stack)
-    stack.append(v)
-
-def TopologicalSort(graph):
+def topological_sort(graph):
+    def dfs(node, visited, stack):
+        visited.add(node)
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                dfs(neighbor, visited, stack)
+        stack.append(node)
+    
+    visited = set()
     stack = []
-    visited = {v: False for v in graph}
-    #print (visited)
-    for v in graph:
-        if not visited[v]:
-            DFS(graph, v, visited, stack)
-    return stack[::-1]  # Reverse the stack to get the topological ordering
+    
+    for node in graph:
+        if node not in visited:
+            dfs(node, visited, stack)
+    
+    return stack[::-1]  # Return the stack in reverse order
 
 # Example usage:
 graph = {
@@ -23,6 +23,9 @@ graph = {
     'D': [],
     'E': [],
     'F': [],
-    'G': []
+    'G': [],
+    'P': ['Q', 'R'], # Disconnected
+    'Q': ['S'],
+    'R': ['T']
 }
-print("Topological Ordering:", TopologicalSort(graph))
+print("Topological Ordering:", topological_sort(graph))

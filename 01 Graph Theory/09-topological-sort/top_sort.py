@@ -1,24 +1,21 @@
-from collections import defaultdict
-
-def top_sort(v, visited, stack, graph):
-    visited[v] = True
-
-    for neighbor in graph[v]:
-        if not visited[neighbor]:
-            top_sort(neighbor, visited, stack, graph)
-
-    stack.insert(0, v)
-
 def topological_sort(graph):
-    visited = {key: False for key in graph}
+    def dfs(node, visited, stack):
+        visited.add(node)
+        for neighbor in graph.get(node, []):
+            if neighbor not in visited:
+                dfs(neighbor, visited, stack)
+        stack.append(node)
+    
+    visited = set()
     stack = []
+    
+    for node in graph:
+        if node not in visited:
+            dfs(node, visited, stack)
+    
+    return stack[::-1]  # Return the stack in reverse order
 
-    for vertex in graph:
-        if not visited[vertex]:
-            top_sort(vertex, visited, stack, graph)
-
-    return stack
-
+# Example usage:
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
@@ -26,9 +23,9 @@ graph = {
     'D': [],
     'E': [],
     'F': [],
-    'G': []
+    'G': [],
+    'P': ['Q', 'R'], # Disconnected
+    'Q': ['S'],
+    'R': ['T']
 }
-
-print("Topological Sort of the given graph:")
-result = topological_sort(graph)
-print(result)
+print("Topological Ordering:", topological_sort(graph))
