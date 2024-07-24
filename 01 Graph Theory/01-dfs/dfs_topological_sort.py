@@ -15,7 +15,6 @@ def topological_sort(graph):
     
     return stack[::-1]  # Return the stack in reverse order
 
-# Example usage:
 graph = {
     'A': ['B', 'C'],
     'B': ['D', 'E'],
@@ -24,7 +23,7 @@ graph = {
     'E': [],
     'F': [],
     'G': [],
-    'P': ['Q', 'R'], # Disconnected
+    'P': ['Q', 'R'], # Disconnected part of the graph
     'Q': ['S'],
     'R': ['T']
 }
