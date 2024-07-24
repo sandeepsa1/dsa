@@ -30,6 +30,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [22-second-shortest-path-weighted-graph](#22-second-shortest-path-weighted-graph)
   - [23-second-best-spanning-tree](#23-second-best-spanning-tree)
   - [24-longest-path-unweighted-graph](#24-longest-path-unweighted-graph)
+  - [25-longest-path-weighted-graph](#25-longest-path-weighted-graph)
 
 ## Graph Theory
 
@@ -101,3 +102,6 @@ Find the second-best spanning tree (SBST) of a graph.
 
 ### 24-longest-path-unweighted-graph
 Find the longest path in an unweighted graph using DFS with memoization.
+
+### 25-longest-path-weighted-graph
+Find the longest path in a weighted graph using DFS with memoization.
