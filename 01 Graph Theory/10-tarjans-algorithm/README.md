@@ -28,15 +28,16 @@ These complexities make Tarjan's Algorithm very efficient for finding strongly c
 
 ### How it works
 1. Initialization:
-   1. Initialize id to 0.
-   1. Initialize arrays ids, low, sccs, and visited.
-   1. Initialize an empty stack.
-   1. Set all vertices' ids to -1 to indicate they are unvisited.
-2. Main Loop:
-   1. For each vertex, if it is unvisited, perform a DFS from that vertex.
-3. DFS Function:
-   1. Set the id and low-link value of the current vertex to id.
-   1. Increment id.
-   1. Push the vertex onto the stack and mark it as visited.
-   1. For each adjacent vertex, if it is unvisited, recursively perform a DFS on it, then update the current vertex's low-link value. If the adjacent vertex is on the stack, update the low-link value with the adjacent vertex's id.
-   1. After visiting all adjacent vertices, if the id of the current vertex equals its low-link value, it indicates the start of an SCC. Pop vertices from the stack until the current vertex is reached, assigning them to the same SCC.
+   1. <b>index</b>: A counter to uniquely identify the order of visitation.
+   1. <b>stack</b>: Used to store the vertices of the current SCC.
+   1. <b>indices</b>: Stores the index at which each node is first visited.
+   1. <b>lowlink</b>: Stores the smallest index reachable from the node.
+   1. <b>on_stack</b>: Tracks whether a node is on the stack.
+   1. <b>sccs</b>: List of SCCs.
+2. DFS Helper Function (<b>strongconnect</b>):
+   1. Assigns an index to the node 'v' and pushes it onto the stack.
+   1. Recursively visits all unvisited neighbors ('w') and updates the 'lowlink' value of 'v'.
+   1. If 'w' is on the stack, it updates the 'lowlink' value of 'v' to the minimum of 'lowlink[v]' and 'indices[w]'.
+   1. If 'v' is a root node (i.e., 'lowlink[v] == indices[v]'), it pops all nodes from the stack until 'v' is reached, forming an SCC.
+2. Main Function:
+   1. Iterates through all nodes in the graph and calls the 'strongconnect' function for each unvisited node.
