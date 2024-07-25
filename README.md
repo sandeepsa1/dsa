@@ -31,6 +31,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [23-second-best-spanning-tree](#23-second-best-spanning-tree)
   - [24-longest-path-unweighted-graph](#24-longest-path-unweighted-graph)
   - [25-longest-path-weighted-graph](#25-longest-path-weighted-graph)
+  - [26-maximum-spanning-tree-kruskal](#26-maximum-spanning-tree-kruskal)
 
 ## Graph Theory
 
@@ -50,7 +51,7 @@ Bellman-Ford algorithm to find the shortest paths from a single source vertex to
 Used to find the shortest paths between all pairs of vertices in a weighted graph, including graphs with negative edge weights (but with no negative cycles).
 
 ### 06-kruskal-algorithm
-Kruskal's algorithm to find a minimum spanning tree of a weighted graph. Works for disconnected graphs also.
+Kruskal's algorithm to find the minimum spanning tree of a weighted graph. Works for disconnected graphs also.
 
 ### 07-prims-algorithm
 Prim's algorithm is a greedy algorithm used to find the minimum spanning tree (MST) of a connected, undirected graph.
@@ -105,3 +106,6 @@ Find the longest path in an unweighted graph using DFS with memoization.
 
 ### 25-longest-path-weighted-graph
 Find the longest path in a weighted graph using DFS with memoization.
+
+### 26-maximum-spanning-tree-kruskal
+Kruskal's algorithm to find the maximum spanning tree of a weighted graph.
