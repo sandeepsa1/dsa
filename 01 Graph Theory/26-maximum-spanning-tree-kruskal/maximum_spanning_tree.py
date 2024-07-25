@@ -23,20 +23,20 @@ def kruskal(n, edges):
     # Only this line is changes to find maximum spanning tree. Edges are kept in reverse order.
     edges.sort(reverse=True, key=lambda edge: edge[2])
     
-    mst = []
-    mst_cost = 0
+    maxst = []
+    maxst_cost = 0
 
     for u, v, weight in edges:
         if find(parent, u) != find(parent, v):
             union(parent, rank, u, v)
-            mst.append((u, v, weight))
-            mst_cost += weight
+            maxst.append((u, v, weight))
+            maxst_cost += weight
 
-    return mst, mst_cost
+    return maxst, maxst_cost
 
 n = 4
 edges = [(0, 1, 10), (0, 2, 6), (0, 3, 5), (1, 3, 15), (2, 3, 4)]
 
-mst, mst_cost = kruskal(n, edges)
-print(f"Maximum Spanning Tree: {mst}")
-print(f"Cost of Maximum Spanning Tree: {mst_cost}")
+maxst, maxst_cost = kruskal(n, edges)
+print(f"Maximum Spanning Tree: {maxst}")
+print(f"Cost of Maximum Spanning Tree: {maxst_cost}")
