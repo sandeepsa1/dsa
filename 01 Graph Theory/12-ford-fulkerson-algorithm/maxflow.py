@@ -18,27 +18,30 @@ def bfs(residual_graph, source, sink, parent):
     return False
 
 def ford_fulkerson(graph_edges, source, sink):
-    
     residual_graph = defaultdict(list)
     for u, v, capacity in graph_edges:
         residual_graph[u].append([v, capacity])
-        residual_graph[v].append([u, 0])  # Add reverse edge with 0 capacity    
-    # print(residual_graph)
+        residual_graph[v].append([u, 0])  # Add reverse edge with 0 capacity
     
     parent = {}
     max_flow = 0
-    
+    flow_paths = []
+
     # Augment the flow while there is a path from source to sink
     while bfs(residual_graph, source, sink, parent):
         # Find the maximum flow through the path found by BFS
         path_flow = float('Inf')
         s = sink
+        path = []
         while s != source:
             u = parent[s]
+            path.append(s)
             for v, capacity in residual_graph[u]:
                 if v == s:
                     path_flow = min(path_flow, capacity)
             s = parent[s]
+        path.append(source)
+        path.reverse()
 
         # update residual capacities of the edges and reverse edges along the path
         v = sink
@@ -53,8 +56,9 @@ def ford_fulkerson(graph_edges, source, sink):
             v = parent[v]
 
         max_flow += path_flow
+        flow_paths.append((path_flow, path))
     
-    return max_flow
+    return max_flow, flow_paths
 
 edges = [
     ('S', 'A', 10), ('S', 'C', 10),
@@ -67,8 +71,11 @@ edges = [
 source = 'S'
 sink = 'T'
 
-max_flow = ford_fulkerson(edges, source, sink)
+max_flow, flow_paths = ford_fulkerson(edges, source, sink)
 print(f"The maximum possible flow is {max_flow}")
+print("The paths contributing to the maximum flow are:")
+for flow, path in flow_paths:
+    print(f"Path: {' -> '.join(map(str, path))}, Flow: {flow}")
 
 '''edges = [
     (0, 1, 16), (0, 2, 13),
