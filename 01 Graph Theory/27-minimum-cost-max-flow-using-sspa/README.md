@@ -4,11 +4,11 @@ In a Flow network we may be able to achieve maximum flow using different combina
 
 For example below 2 combinations produce the max flow of 19 for the sample input (Refer image also).</br>
 But the first combination of paths achieve this with the minimum cost of 149.</br>
-emsp S -> A -> D -> T		         8</br>
-emsp S -> C -> D -> T		         2</br>
-emsp S -> A -> B -> T		         2</br>
-emsp S -> C -> D -> A -> B -> T	   2</br>
-emsp S -> C -> D -> B -> T		   5</br></br></br>
+&emsp; S -> A -> D -> T		         8</br>
+&emsp; S -> C -> D -> T		         2</br>
+&emsp; S -> A -> B -> T		         2</br>
+&emsp; S -> C -> D -> A -> B -> T	   2</br>
+&emsp; S -> C -> D -> B -> T		   5</br></br></br>
 
 S -> A -> B -> T              4</br>
 S -> A -> D -> T              6</br>
