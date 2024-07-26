@@ -7,7 +7,7 @@ But the first combination of paths achieve this with the minimum cost of 149.</b
 &emsp;S -> A -> D -> T&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;8</br>
 &emsp;S -> C -> D -> T&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2</br>
 &emsp;S -> A -> B -> T&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;2</br>
-&emsp;S -> C -> D -> A -> B -> T&emsp;&nbsp;&nbsp;2</br>
+&emsp;S -> C -> D <- A -> B -> T&emsp;&nbsp;&nbsp;2</br>
 &emsp;S -> C -> D -> B -> T&emsp;&emsp;&emsp;&emsp;5</br>
 
 &emsp;S -> A -> B -> T&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;4</br>
