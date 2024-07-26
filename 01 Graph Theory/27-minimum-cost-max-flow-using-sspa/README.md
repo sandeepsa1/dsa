@@ -4,16 +4,16 @@ In a Flow network we may be able to achieve maximum flow using different combina
 
 For example below 2 combinations produce the max flow of 19 for the sample input (Refer image also).</br>
 But the first combination of paths achieve this with the minimum cost of 149.</br>
-&emsp; S -> A -> D -> T		         8</br>
-&emsp; S -> C -> D -> T		         2</br>
-&emsp; S -> A -> B -> T		         2</br>
-&emsp; S -> C -> D -> A -> B -> T	   2</br>
-&emsp; S -> C -> D -> B -> T		   5</br></br></br>
+&emsp; S -> A -> D -> T&emsp;&emsp;&emsp;&emsp;8</br>
+&emsp; S -> C -> D -> T&emsp;&emsp;&emsp;&emsp;2</br>
+&emsp; S -> A -> B -> T&emsp;&emsp;&emsp;&emsp;2</br>
+&emsp; S -> C -> D -> A -> B -> T&emsp;&emsp;2</br>
+&emsp; S -> C -> D -> B -> T&emsp;&emsp;&emsp;5</br>
 
-S -> A -> B -> T              4</br>
-S -> A -> D -> T              6</br>
-S -> C -> D -> T              4</br>
-S -> C -> D -> B -> T         5</br>
+&emsp;S -> A -> B -> T              4</br>
+&emsp;S -> A -> D -> T              6</br>
+&emsp;S -> C -> D -> T              4</br>
+&emsp;S -> C -> D -> B -> T         5</br></br>
 
 1. Time complexity: <b>𝑂(F . V . E)</b> where F is the maximum flow.
 2. Space complexity: <b>𝑂(V . E)</b></br>
