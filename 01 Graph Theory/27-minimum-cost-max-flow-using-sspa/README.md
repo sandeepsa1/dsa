@@ -1,18 +1,18 @@
 ## Minimum Cost Maximum Flow Algorithm
 This implementation of the Minimum Cost Maximum Flow algorithm uses a basic implementation of the Successive Shortest Path Algorithm (SSPA) combined with Bellman-Ford to find shortest paths.</br></br>
-In a Flow network we may be able to achieve maximum flow using different combination of paths. Idea is to achieve this maximum flow value using minimum cost.</br>
+In a Flow network we may be able to achieve maximum flow using different combination of paths. Idea is to achieve this maximum flow value for the path combinations that provide the minimum cost.</br>
 
 For example below 2 combinations produce the max flow of 19 for the sample input (Refer image also).</br>
 But the first combination of paths achieve this with the minimum cost of 149.</br>
-S -> A -> D -> T		         8</br>
-S -> C -> D -> T		         2</br>
-S -> A -> B -> T		         2</br>
-S -> C -> D -> A -> B -> T	   2</br>
-S -> C -> D -> B -> T		   5</br></br></br>
+emsp S -> A -> D -> T		         8</br>
+emsp S -> C -> D -> T		         2</br>
+emsp S -> A -> B -> T		         2</br>
+emsp S -> C -> D -> A -> B -> T	   2</br>
+emsp S -> C -> D -> B -> T		   5</br></br></br>
 
-S -> A -> B -> T              4
-S -> A -> D -> T              6
-S -> C -> D -> T              4
+S -> A -> B -> T              4</br>
+S -> A -> D -> T              6</br>
+S -> C -> D -> T              4</br>
 S -> C -> D -> B -> T         5</br>
 
 1. Time complexity: <b>𝑂(F . V . E)</b> where F is the maximum flow.
