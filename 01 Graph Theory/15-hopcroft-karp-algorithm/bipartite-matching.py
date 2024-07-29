@@ -1,65 +1,62 @@
 from collections import deque, defaultdict
 
-def add_edge(adj, u, v):
-    adj[u].append(v)
-    adj[v].append(u)
-
-# BFS to build the level graph
-def bfs(U, V, pair_u, pair_v, dist):
+def bfs(graph, pair_u, pair_v, dist, U, V):
     queue = deque()
     for u in U:
-        if pair_u[u] == 0:
+        if pair_u[u] == None:
             dist[u] = 0
             queue.append(u)
         else:
-            dist[u] = float('inf')
-    dist[0] = float('inf')
+            dist[u] = float('Inf')
+    dist[None] = float('Inf')
+    
     while queue:
         u = queue.popleft()
-        if dist[u] < dist[0]:
-            for v in adj[u]:
-                if dist[pair_v[v]] == float('inf'):
+        if dist[u] < dist[None]:
+            for v in graph[u]:
+                if dist[pair_v[v]] == float('Inf'):
                     dist[pair_v[v]] = dist[u] + 1
                     queue.append(pair_v[v])
-    return dist[0] != float('inf')
+    return dist[None] != float('Inf')
 
-# DFS to find augmenting paths
-def dfs(u, pair_u, pair_v, dist):
-    if u != 0:
-        for v in adj[u]:
+def dfs(graph, pair_u, pair_v, dist, u):
+    if u is not None:
+        for v in graph[u]:
             if dist[pair_v[v]] == dist[u] + 1:
-                if dfs(pair_v[v], pair_u, pair_v, dist):
+                if dfs(graph, pair_u, pair_v, dist, pair_v[v]):
                     pair_v[v] = u
                     pair_u[u] = v
                     return True
-        dist[u] = float('inf')
+        dist[u] = float('Inf')
         return False
     return True
 
-# Hopcroft-Karp algorithm
-def hopcroft_karp(U, V):
-    pair_u = {u: 0 for u in U}
-    pair_v = {v: 0 for v in V}
+def hopcroft_karp(graph, U, V):
+    pair_u = {u: None for u in U}
+    pair_v = {v: None for v in V}
     dist = {}
+    
     matching = 0
-    while bfs(U, V, pair_u, pair_v, dist):
+    
+    while bfs(graph, pair_u, pair_v, dist, U, V):
         for u in U:
-            if pair_u[u] == 0:
-                if dfs(u, pair_u, pair_v, dist):
+            if pair_u[u] == None:
+                if dfs(graph, pair_u, pair_v, dist, u):
                     matching += 1
-    return matching, pair_u
+                    
+    return matching, pair_u, pair_v
 
-if __name__ == "__main__":
-    U = {1, 2, 3}
-    V = {4, 5, 6}
-    adj = defaultdict(list)
-    
-    add_edge(adj, 1, 4)
-    add_edge(adj, 1, 5)
-    add_edge(adj, 2, 5)
-    add_edge(adj, 2, 6)
-    add_edge(adj, 3, 6)
-    
-    matching, pairs = hopcroft_karp(U, V)
-    print(f"Maximum Matching: {matching}")
-    print(f"Matching Pairs: {pairs}")
+
+graph = {
+    1: [4, 5],
+    2: [5, 6],
+    3: [6]
+}
+
+U = {1, 2, 3}
+V = {4, 5, 6}
+
+matching, pair_u, pair_v = hopcroft_karp(graph, U, V)
+print(f"Maximum Matching: {matching}")
+print(f"pair_u: {pair_u}")
+print(f"pair_v: {pair_v}")

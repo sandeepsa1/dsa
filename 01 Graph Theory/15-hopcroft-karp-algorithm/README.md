@@ -11,6 +11,8 @@ A bipartite graph is a graph whose vertices can be divided into two disjoint set
 1. <b>Matching</b>: A matching in a graph is a set of edges such that no two edges share a common vertex.
 2. <b>Maximum Matching</b>: A matching that contains the largest possible number of edges.
 3. <b>Perfect Matching</b>: A matching that matches all vertices of the graph.
+4. <b>Level Graph</b>: A level graph is a subgraph of the original bipartite graph where vertices are assigned levels based on their distance from the unmatched vertices in the left set U.The level graph only includes edges that connect vertices on consecutive levels.
+5. <b>Augmenting Path</b>: An augmenting path starts at an unmatched vertex in U and ends at an unmatched vertex in V. It alternates between edges that are not in the current matching and edges that are in the current matching.
 
 ### How it works
 1. Level Graph Construction (BFS):
