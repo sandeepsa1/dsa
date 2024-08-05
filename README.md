@@ -121,4 +121,4 @@ Minimum Cost Maximum Flow algorithm using a basic implementation of the Successi
 ## Arrays
 
 ### 01-search
-Array search algorithms Linear Search, Binary Search, Interpolation Search, Jump Search and Exponential Search
+Implement array search algorithms Linear Search, Binary Search, Interpolation Search, Jump Search and Exponential Search.
