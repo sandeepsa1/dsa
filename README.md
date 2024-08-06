@@ -35,6 +35,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)
 - [Arrays](#arrays)
   - [01-search](#01-search)
+  - [02-sort](#02-sort)
 
 
 ## Graph Theory
@@ -122,3 +123,6 @@ Minimum Cost Maximum Flow algorithm using a basic implementation of the Successi
 
 ### 01-search
 Implement array search algorithms Linear Search, Binary Search, Interpolation Search, Jump Search and Exponential Search.
+
+### 02-sort
+Implement array sort algorithms Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort and Heap Sort.
