@@ -1,11 +1,11 @@
 ## Array Sort Algorithms
 Important array sort algorithms are;
-1. Bubble Sort: Simple but inefficient; suitable for small datasets.
-2. Insertion Sort: Efficient for small datasets and mostly sorted arrays; simple to implement.
-3. Selection Sort: Simple but inefficient; good for small datasets and cases where memory writes are a concern.
-4. Merge Sort: Efficient and stable; good for large datasets; requires additional space.
-5. Quick Sort: Efficient on average; widely used in practice; in-place but not stable.
-6. Heap Sort: Efficient and in-place; does not require additional space; not stable.
+1. <b>Bubble Sort</b>: Simple but inefficient; suitable for small datasets.
+2. <b>Insertion Sort</b>: Efficient for small datasets and mostly sorted arrays; simple to implement.
+3. <b>Selection Sort</b>: Simple but inefficient; good for small datasets and cases where memory writes are a concern.
+4. <b>Merge Sort</b>: Efficient and stable; good for large datasets; requires additional space.
+5. <b>Quick Sort</b>: Efficient on average; widely used in practice; in-place but not stable.
+6. <b>Heap Sort</b>: Efficient and in-place; does not require additional space; not stable.
 
 
 ### 1. Bubble Sort
