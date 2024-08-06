@@ -1,10 +1,10 @@
 ## Array Search Algorithms
 There are several algorithms used to search for elements within arrays. These can be broadly categorized into two types: linear search algorithms and binary search algorithms. Important array search algorithms are;
-1. Linear Search: Simple but inefficient for large arrays.
-2. Binary Search: Efficient for sorted arrays.
-3. Interpolation Search: Efficient for uniformly distributed sorted arrays.
-4. Jump Search: Efficient for sorted arrays with a predictable jump size.
-5. Exponential Search: Efficient for unbounded/infinite lists.
+1. <b>Linear Search</b>: Simple but inefficient for large arrays.
+2. <b>Binary Search</b>: Efficient for sorted arrays.
+3. <b>Interpolation Search</b>: Efficient for uniformly distributed sorted arrays.
+4. <b>Jump Search</b>: Efficient for sorted arrays with a predictable jump size.
+5. <b>Exponential Search</b>: Efficient for unbounded/infinite lists.
 
 
 ### 1. Linear Search
