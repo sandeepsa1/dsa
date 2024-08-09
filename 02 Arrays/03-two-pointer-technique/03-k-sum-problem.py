@@ -1,25 +1,25 @@
-def find_k_sum(arr, target, k):
+def find_k_sum(arry, target, k):
     def k_sum_recursive(start, target, k, path):
         if k == 1:
-            if target in arr[start:]:
+            if target in arry[start:]:
                 results.append(path + [target])
             return
         else:
-            for i in range(start, len(arr) - k + 1):
-                if i > start and arr[i] == arr[i - 1]:
+            for i in range(start, len(arry) - k + 1):
+                if i > start and arry[i] == arry[i - 1]: # Not consider duplicates
                     continue
-                k_sum_recursive(i + 1, target - arr[i], k - 1, path + [arr[i]])
+                k_sum_recursive(i + 1, target - arry[i], k - 1, path + [arry[i]])
 
-    arr = sorted(arr)
+    arry = sorted(arry)
     results = []
     k_sum_recursive(0, target, k, [])
     
     return results
 
-arr = [2, 7, 15, 19, 11, 14, 5, 1]
+arry = [2, 7, 15, 19, 11, 14, 5, 1]
 target = 20
 k = 3
-result = find_k_sum(arr, target, k)
+result = find_k_sum(arry, target, k)
 if result:
     for res in result:
         print(f"Numbers that sum up to {target} are: {res}")
