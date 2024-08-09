@@ -36,6 +36,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
 - [Arrays](#arrays)
   - [01-search](#01-search)
   - [02-sort](#02-sort)
+  - [03-two-pointer-technique](#03-two-pointer-technique)
 
 
 ## Graph Theory
@@ -126,3 +127,6 @@ Implement array search algorithms Linear Search, Binary Search, Interpolation Se
 
 ### 02-sort
 Implement array sort algorithms Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort and Heap Sort.
+
+### 03-two-pointer-technique
+Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems and Array duplicate removal.
