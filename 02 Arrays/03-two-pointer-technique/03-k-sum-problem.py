@@ -6,7 +6,7 @@ def find_k_sum(arry, target, k):
             return
         else:
             for i in range(start, len(arry) - k + 1):
-                if i > start and arry[i] == arry[i - 1]: # Not consider duplicates
+                if i > start and arry[i] == arry[i - 1]: # No need to consider duplicate items
                     continue
                 k_sum_recursive(i + 1, target - arry[i], k - 1, path + [arry[i]])
 
