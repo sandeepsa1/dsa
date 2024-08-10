@@ -2,7 +2,7 @@ def longest_substring_without_repeating_characters(s):
     char_set = set()
     max_length = 0
     start = 0
-    max_start = 0  # To keep track of the starting index of the longest substring
+    max_start = 0  # To track starting index of the longest substring
     
     for end in range(len(s)):
         while s[end] in char_set:
