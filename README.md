@@ -37,6 +37,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [01-search](#01-search)
   - [02-sort](#02-sort)
   - [03-two-pointer-technique](#03-two-pointer-technique)
+  - [04-sliding-window-technique](#04-sliding-window-technique)
 
 
 ## Graph Theory
@@ -129,4 +130,7 @@ Implement array search algorithms Linear Search, Binary Search, Interpolation Se
 Implement array sort algorithms Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort and Heap Sort.
 
 ### 03-two-pointer-technique
-Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems and Array duplicate removal.
+Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems and Array Duplicate Removal.
+
+### 04-sliding-window-technique
+The Sliding Window Technique is commonly used to solve problems involving subarrays, substrings, or other contiguous subsequences in arrays or strings. Here we see how to find Maximum Sum Subarray of Size K and Longest Substring Without Repeating Characters using sliding window technique.
