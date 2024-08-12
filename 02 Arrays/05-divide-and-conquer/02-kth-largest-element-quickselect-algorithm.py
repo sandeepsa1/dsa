@@ -1,36 +1,36 @@
 import random
 
-def partition(arr, left, right):
-    pivot = arr[right]
+def partition(arry, left, right):
+    pivot = arry[right]
     i = left
     for j in range(left, right):
-        if arr[j] > pivot:  # For k-th largest, use ">" (use "<" for k-th smallest)
-            arr[i], arr[j] = arr[j], arr[i]
+        if arry[j] > pivot:  # For k-th largest, use ">" (use "<" for k-th smallest)
+            arry[i], arry[j] = arry[j], arry[i]
             i += 1
-    arr[i], arr[right] = arr[right], arr[i]
+    arry[i], arry[right] = arry[right], arry[i]
     return i
 
-def quickselect(arr, left, right, k):
+def quickselect(arry, left, right, k):
     if left == right:
-        return arr[left]
+        return arry[left]
     
     pivot_index = random.randint(left, right)
-    arr[pivot_index], arr[right] = arr[right], arr[pivot_index]
+    arry[pivot_index], arry[right] = arry[right], arry[pivot_index]
     
-    pivot_index = partition(arr, left, right)
+    pivot_index = partition(arry, left, right)
     
     if k == pivot_index:
-        return arr[k]
+        return arry[k]
     elif k < pivot_index:
-        return quickselect(arr, left, pivot_index - 1, k)
+        return quickselect(arry, left, pivot_index - 1, k)
     else:
-        return quickselect(arr, pivot_index + 1, right, k)
+        return quickselect(arry, pivot_index + 1, right, k)
 
-def find_kth_largest(arr, k):
-    return quickselect(arr, 0, len(arr) - 1, k - 1)
+def find_kth_largest(arry, k):
+    return quickselect(arry, 0, len(arry) - 1, k - 1)
 
 
-arr = [3, 2, 1, 5, 6, 4]
+arry = [3, 2, 1, 5, 6, 4]
 k = 2
-result = find_kth_largest(arr, k)
+result = find_kth_largest(arry, k)
 print(f"{k}-th largest element is {result}")
