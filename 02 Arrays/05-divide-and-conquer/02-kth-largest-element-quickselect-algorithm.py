@@ -14,6 +14,7 @@ def quickselect(arry, left, right, k):
     if left == right:
         return arry[left]
     
+    # Randomly select a pivot to avoid worst-case performance by reducing the likelihood of poor pivot choices.
     pivot_index = random.randint(left, right)
     arry[pivot_index], arry[right] = arry[right], arry[pivot_index]
     
