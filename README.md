@@ -137,4 +137,4 @@ Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems and Array 
 The Sliding Window Technique is commonly used to solve problems involving subarrays, substrings, or other contiguous subsequences in arrays or strings. Here we see how to find Maximum Sum Subarray of Size K and Longest Substring Without Repeating Characters using sliding window technique.
 
 ### 05-divide-and-conquer
-Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented, which are finding the Closest Pair of Points which are kept as an array and find Find K-th Largest Element in an array.
+Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented; finding the Closest Pair of Points which are kept as an array and find K-th Largest Element in an array.
