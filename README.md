@@ -38,6 +38,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-sort](#02-sort)
   - [03-two-pointer-technique](#03-two-pointer-technique)
   - [04-sliding-window-technique](#04-sliding-window-technique)
+  - [05-divide-and-conquer](#05-divide-and-conquer)
 
 
 ## Graph Theory
@@ -134,3 +135,6 @@ Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems and Array 
 
 ### 04-sliding-window-technique
 The Sliding Window Technique is commonly used to solve problems involving subarrays, substrings, or other contiguous subsequences in arrays or strings. Here we see how to find Maximum Sum Subarray of Size K and Longest Substring Without Repeating Characters using sliding window technique.
+
+### 05-divide-and-conquer
+Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented, which are finding the Closest Pair of Points which are kept as an array and find Find K-th Largest Element in an array.
