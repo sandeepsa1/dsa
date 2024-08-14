@@ -39,6 +39,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [03-two-pointer-technique](#03-two-pointer-technique)
   - [04-sliding-window-technique](#04-sliding-window-technique)
   - [05-divide-and-conquer](#05-divide-and-conquer)
+  - [06-dynamic-programming](#06-dynamic-programming)
 
 
 ## Graph Theory
@@ -138,3 +139,6 @@ The Sliding Window Technique is commonly used to solve problems involving subarr
 
 ### 05-divide-and-conquer
 Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented; finding the Closest Pair of Points which are kept as an array and find K-th Largest Element in an array.
+
+### 06-dynamic-programming
+Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. Code implemented are Maximum Subarray Sum (Kadane’s Algorithm), Longest Increasing Subsequence, Longest Common Subsequence
