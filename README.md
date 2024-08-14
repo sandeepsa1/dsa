@@ -141,4 +141,4 @@ The Sliding Window Technique is commonly used to solve problems involving subarr
 Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented; finding the Closest Pair of Points which are kept as an array and find K-th Largest Element in an array.
 
 ### 06-dynamic-programming
-Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. Code implemented are Maximum Subarray Sum (Kadane’s Algorithm), Longest Increasing Subsequence, Longest Common Subsequence
+Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. Code implemented are Maximum Subarray Sum (Kadane’s Algorithm), Longest Increasing Subsequence and Longest Common Subsequence.

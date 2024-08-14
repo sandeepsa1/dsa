@@ -1,5 +1,5 @@
 ## Dynamic Programming
-Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. It is particularly effective for optimization problems where the problem can be divided into overlapping subproblems that can be solved independently.<br/><br/>
+Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. It is particularly effective for optimization problems where the problem can be divided into overlapping subproblems that can be solved independently.<br/>
 
 Samples included here are;
 1. <b>Maximum Subarray Sum (Kadane’s Algorithm)</b>: Finds the contiguous subarray with the maximum sum.
