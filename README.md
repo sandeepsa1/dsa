@@ -132,7 +132,7 @@ Implement array search algorithms Linear Search, Binary Search, Interpolation Se
 Implement array sort algorithms Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort and Heap Sort.
 
 ### 03-two-pointer-technique
-Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems and Array Duplicate Removal.
+Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems, Array Duplicate Removal and Container With Most Water.
 
 ### 04-sliding-window-technique
 The Sliding Window Technique is commonly used to solve problems involving subarrays, substrings, or other contiguous subsequences in arrays or strings. Here we see how to find Maximum Sum Subarray of Size K and Longest Substring Without Repeating Characters using sliding window technique.

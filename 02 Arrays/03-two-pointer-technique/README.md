@@ -5,6 +5,7 @@ Samples included here are;
 1. <b>Two Sum Problem</b>: Finds two numbers in an array that sum up to a target value.
 2. <b>K Sum Problem</b>: Finds <b>K</b> numbers in an array that sum up to a target value.
 3. <b>Array duplicate removal</b>: Remove duplicate elements from an array.
+4. <b>Container With Most Water</b>: Finding two vertical lines in an array that, together with the x-axis, form a container that can hold the maximum amount of water.
 
 
 ### 1. Two Sum Problem
@@ -59,3 +60,21 @@ To remove duplicates from a sorted array in place, two-pointer technique can be 
    - If the current element is different from the element at 'unique_index', update 'unique_index' and place the current element at this position.
 3. Return the Length:
    - After processing all elements, the array from the start to 'unique_index + 1' contains all unique elements. The function returns 'unique_index + 1', which is the length of the array with unique elements.
+
+
+### 4. Container With Most Water
+The "Container With Most Water" problem involves finding two vertical lines in an array that, together with the x-axis, form a container that can hold the maximum amount of water. The height of each line corresponds to the value at each index in the array, and the width is the distance between the two lines.</br>
+<b>Area=min(8,7)×(8−1)=7×7=49</b>
+
+1. Time complexity: <b>𝑂(n)</b>
+2. Space complexity: <b>𝑂(n)</b></br>
+
+#### Steps
+1. Initialize Pointers:
+   - The two pointers 'left' and 'right' start at the beginning and end of the array, respectively.
+2. Calculate Area:
+   - The area is calculated as the minimum height between the two lines multiplied by the distance between them.
+3. Move Pointers:
+   - To maximize the area, the algorithm moves the pointer associated with the shorter line inward, as moving the shorter line outward would only reduce the area.
+4. Repeat:
+   - The process continues until the pointers meet, ensuring that all possible containers are considered.
