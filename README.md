@@ -40,6 +40,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [04-sliding-window-technique](#04-sliding-window-technique)
   - [05-divide-and-conquer](#05-divide-and-conquer)
   - [06-dynamic-programming](#06-dynamic-programming)
+  - [07-matrix-manipulation-2d-arrays](#07-matrix-manipulation-2d-arrays)
 
 
 ## Graph Theory
@@ -126,19 +127,47 @@ Minimum Cost Maximum Flow algorithm using a basic implementation of the Successi
 ## Arrays
 
 ### 01-search
-Implement array search algorithms Linear Search, Binary Search, Interpolation Search, Jump Search and Exponential Search.
+Implement array search algorithms.
+  - Linear Search
+  - Binary Search
+  - Interpolation Search
+  - Jump Search
+  - Exponential Search
 
 ### 02-sort
-Implement array sort algorithms Bubble Sort, Insertion Sort, Selection Sort, Merge Sort, Quick Sort and Heap Sort.
+Implement array sort algorithms.
+  - Bubble Sort
+  - Insertion Sort
+  - Selection Sort
+  - Merge Sort
+  - Quick Sort
+  - Heap Sort
 
 ### 03-two-pointer-technique
-Using Two Pointer Technique to solve Two Sum Problems, K Sum Problems, Array Duplicate Removal and Container With Most Water.
+Using Two Pointer Technique to solve;
+  - Two Sum Problem
+  - Three Sum Problem
+  - K Sum Problem
+  - Array Duplicate Removal
+  - Container With Most Water
 
 ### 04-sliding-window-technique
-The Sliding Window Technique is commonly used to solve problems involving subarrays, substrings, or other contiguous subsequences in arrays or strings. Here we see how to find Maximum Sum Subarray of Size K and Longest Substring Without Repeating Characters using sliding window technique.
+The Sliding Window Technique is commonly used to solve problems involving subarrays, substrings, or other contiguous subsequences in arrays or strings. Here we see how to find:
+  - Maximum Sum Subarray of Size K
+  - Longest Substring Without Repeating Characters
 
 ### 05-divide-and-conquer
-Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented; finding the Closest Pair of Points which are kept as an array and find K-th Largest Element in an array.
+Divide and Conquer method is effective for a wide range of problems, including sorting, searching, and optimization. Two samples are implemented:
+  - Finding the Closest Pair of Points which are kept as an array
+  - Find K-th Largest Element in an array
 
 ### 06-dynamic-programming
-Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. Code implemented are Maximum Subarray Sum (Kadane’s Algorithm), Longest Increasing Subsequence and Longest Common Subsequence.
+Dynamic Programming (DP) is an algorithmic technique used for solving complex problems by breaking them down into simpler subproblems. Code implemented are:
+  - Maximum Subarray Sum (Kadane’s Algorithm)
+  - Longest Increasing Subsequence
+  - Longest Common Subsequence
+
+### 07-matrix-manipulation-2d-arrays
+Matrix manipulation refers to a wide range of operations that can be performed on 2D arrays (also known as matrices). Implemented Matrix Manipulation Operations are:
+  - Rotate n * n Matrix in 90, 180 or 270 degrees
+  - Spiral Order Traversal
