@@ -169,5 +169,5 @@ Dynamic Programming (DP) is an algorithmic technique used for solving complex pr
 
 ### 07-matrix-manipulation-2d-arrays
 Matrix manipulation refers to a wide range of operations that can be performed on 2D arrays (also known as matrices). Implemented Matrix Manipulation Operations are:
-  - Rotate n * n Matrix in 90, 180 or 270 degrees
+  - Rotate n * n Matrix in 90, 180 or 270 Degrees
   - Spiral Order Traversal
