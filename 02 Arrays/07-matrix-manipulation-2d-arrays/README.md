@@ -2,7 +2,7 @@
 Matrix manipulation refers to a wide range of operations that can be performed on 2D arrays (also known as matrices). These operations are fundamental in many areas, such as computer science, mathematics, physics, and engineering. Matrix manipulation involves various techniques to alter, analyze, or compute specific properties or results based on the elements of the matrix.<br/><br/>
 
 Samples included here are;
-1. <b>Rotate Matrix</b>: Rotates a given matrix by 90 degrees.
+1. <b>Rotate Matrix</b>: Rotates a given matrix by 90, 180 or 270 degrees.
 2. <b>Spiral Order Traversal</b>: Traverses a matrix in spiral order.
 
 
