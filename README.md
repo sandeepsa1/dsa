@@ -5,44 +5,53 @@ Welcome to the Data Structures and Algorithms repository! This repository contai
 The entire `dsa` folder is organized as a single virtual environment. You can either download the entire folder and run any code after activating the virtual environment using using command `scripts\activate`. Or download any sub folders and run it. In this case you may have to import some libraries.
 
 ## Table of Contents
-- [Graph Theory](#graph-theory)
-  - [01-dfs](#01-dfs)
-  - [02-bfs](#02-bfs)
-  - [03-dijkstras_algorithm](#03-dijkstras-algorithm)
-  - [04-bellman-ford-algorithm](#04-bellman-ford-algorithm)
-  - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
-  - [06-kruskal-algorithm](#06-kruskal-algorithm)
-  - [07-prims-algorithm](#07-prims-algorithm)
-  - [08-a-star-algorithm](#08-a-star-algorithm)
-  - [09-topological-sort](#09-topological-sort)
-  - [10-tarjans-algorithm](#10-tarjans-algorithm)
-  - [11-johnsons-algorithm](#11-johnsons-algorithm)
-  - [12-ford-fulkerson-algorithm](#12-ford-fulkerson-algorithm)
-  - [13-edmonds-karp-algorithm](#13-edmonds-karp-algorithm)
-  - [14-dinics-algorithm](#14-dinics-algorithm)
-  - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
-  - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
-  - [17-kahns-algorithm](#17-kahns-algorithm)
-  - [18-hungarian-algorithm](#18-hungarian-algorithm)
-  - [19-viterbi-algorithm](#19-viterbi-algorithm)
-  - [20-pagerank-algorithm](#20-pagerank-algorithm)
-  - [21-second-shortest-path-unweighted-graph](#21-second-shortest-path-unweighted-graph)
-  - [22-second-shortest-path-weighted-graph](#22-second-shortest-path-weighted-graph)
-  - [23-second-best-spanning-tree](#23-second-best-spanning-tree)
-  - [24-longest-path-unweighted-graph](#24-longest-path-unweighted-graph)
-  - [25-longest-path-weighted-graph](#25-longest-path-weighted-graph)
-  - [26-maximum-spanning-tree-kruskal](#26-maximum-spanning-tree-kruskal)
-  - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)
-- [Arrays](#arrays)
-  - [01-search](#01-search)
-  - [02-sort](#02-sort)
-  - [03-two-pointer-technique](#03-two-pointer-technique)
-  - [04-sliding-window-technique](#04-sliding-window-technique)
-  - [05-divide-and-conquer](#05-divide-and-conquer)
-  - [06-dynamic-programming](#06-dynamic-programming)
-  - [07-matrix-manipulation-2d-arrays](#07-matrix-manipulation-2d-arrays)
-  - [08-greedy-algorithms](#08-greedy-algorithms)
-  - [09-important-coding-problems](#09-important-coding-problems)
+<details>
+  <summary>1. Graph Theory</summary>
+  
+  - [Graph Theory](#graph-theory)
+    - [01-dfs](#01-dfs)
+    - [02-bfs](#02-bfs)
+    - [03-dijkstras_algorithm](#03-dijkstras-algorithm)
+    - [04-bellman-ford-algorithm](#04-bellman-ford-algorithm)
+    - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
+    - [06-kruskal-algorithm](#06-kruskal-algorithm)
+    - [07-prims-algorithm](#07-prims-algorithm)
+    - [08-a-star-algorithm](#08-a-star-algorithm)
+    - [09-topological-sort](#09-topological-sort)
+    - [10-tarjans-algorithm](#10-tarjans-algorithm)
+    - [11-johnsons-algorithm](#11-johnsons-algorithm)
+    - [12-ford-fulkerson-algorithm](#12-ford-fulkerson-algorithm)
+    - [13-edmonds-karp-algorithm](#13-edmonds-karp-algorithm)
+    - [14-dinics-algorithm](#14-dinics-algorithm)
+    - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
+    - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
+    - [17-kahns-algorithm](#17-kahns-algorithm)
+    - [18-hungarian-algorithm](#18-hungarian-algorithm)
+    - [19-viterbi-algorithm](#19-viterbi-algorithm)
+    - [20-pagerank-algorithm](#20-pagerank-algorithm)
+    - [21-second-shortest-path-unweighted-graph](#21-second-shortest-path-unweighted-graph)
+    - [22-second-shortest-path-weighted-graph](#22-second-shortest-path-weighted-graph)
+    - [23-second-best-spanning-tree](#23-second-best-spanning-tree)
+    - [24-longest-path-unweighted-graph](#24-longest-path-unweighted-graph)
+    - [25-longest-path-weighted-graph](#25-longest-path-weighted-graph)
+    - [26-maximum-spanning-tree-kruskal](#26-maximum-spanning-tree-kruskal)
+    - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)
+</details>
+
+<details>
+  <summary>2. Arrays</summary>
+    
+  - [Arrays](#arrays)
+    - [01-search](#01-search)
+    - [02-sort](#02-sort)
+    - [03-two-pointer-technique](#03-two-pointer-technique)
+    - [04-sliding-window-technique](#04-sliding-window-technique)
+    - [05-divide-and-conquer](#05-divide-and-conquer)
+    - [06-dynamic-programming](#06-dynamic-programming)
+    - [07-matrix-manipulation-2d-arrays](#07-matrix-manipulation-2d-arrays)
+    - [08-greedy-algorithms](#08-greedy-algorithms)
+    - [09-important-coding-problems](#09-important-coding-problems)
+</details>
 
 
 ## Graph Theory
@@ -183,66 +192,3 @@ A greedy algorithm is an approach to solving optimization problems by making a s
 Some of the important and most common coding problems related to Arrays Data Structure.
   - Product of Array Except Self
   - Maximum Product Subarray
-
-
-# My Project
-
-Welcome to the documentation for My Project. Below are some expandable sections that provide additional details.
-
-<details>
-  <summary>1. Graph Theory</summary>
-    - [Graph Theory](#graph-theory)
-      - [01-dfs](#01-dfs)
-      - [02-bfs](#02-bfs)
-      - [03-dijkstras_algorithm](#03-dijkstras-algorithm)
-      - [04-bellman-ford-algorithm](#04-bellman-ford-algorithm)
-      - [05-floyd-warshall-algorithm](#05-floyd-warshall-algorithm)
-      - [06-kruskal-algorithm](#06-kruskal-algorithm)
-      - [07-prims-algorithm](#07-prims-algorithm)
-      - [08-a-star-algorithm](#08-a-star-algorithm)
-      - [09-topological-sort](#09-topological-sort)
-      - [10-tarjans-algorithm](#10-tarjans-algorithm)
-      - [11-johnsons-algorithm](#11-johnsons-algorithm)
-      - [12-ford-fulkerson-algorithm](#12-ford-fulkerson-algorithm)
-      - [13-edmonds-karp-algorithm](#13-edmonds-karp-algorithm)
-      - [14-dinics-algorithm](#14-dinics-algorithm)
-      - [15-hopcroft-karp-algorithm](#15-hopcroft-karp-algorithm)
-      - [16-kosarajus-algorithm](#16-kosarajus-algorithm)
-      - [17-kahns-algorithm](#17-kahns-algorithm)
-      - [18-hungarian-algorithm](#18-hungarian-algorithm)
-      - [19-viterbi-algorithm](#19-viterbi-algorithm)
-      - [20-pagerank-algorithm](#20-pagerank-algorithm)
-      - [21-second-shortest-path-unweighted-graph](#21-second-shortest-path-unweighted-graph)
-      - [22-second-shortest-path-weighted-graph](#22-second-shortest-path-weighted-graph)
-      - [23-second-best-spanning-tree](#23-second-best-spanning-tree)
-      - [24-longest-path-unweighted-graph](#24-longest-path-unweighted-graph)
-      - [25-longest-path-weighted-graph](#25-longest-path-weighted-graph)
-      - [26-maximum-spanning-tree-kruskal](#26-maximum-spanning-tree-kruskal)
-      - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)  
-</details>
-
-<details>
-  <summary>2. Arrays</summary>
-    - [Arrays](#arrays)
-      - [01-search](#01-search)
-      - [02-sort](#02-sort)
-      - [03-two-pointer-technique](#03-two-pointer-technique)
-      - [04-sliding-window-technique](#04-sliding-window-technique)
-      - [05-divide-and-conquer](#05-divide-and-conquer)
-      - [06-dynamic-programming](#06-dynamic-programming)
-      - [07-matrix-manipulation-2d-arrays](#07-matrix-manipulation-2d-arrays)
-      - [08-greedy-algorithms](#08-greedy-algorithms)
-      - [09-important-coding-problems](#09-important-coding-problems)  
-</details>
-
-<details>
-  <summary>Section 3: Usage</summary>
-  
-  ### How to Use My Project
-  
-  Learn how to use My Project with these simple examples:
-  
-  ```python
-  # Example 1
-  from my_project import my_function
-  my_function()
