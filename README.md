@@ -42,6 +42,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [06-dynamic-programming](#06-dynamic-programming)
   - [07-matrix-manipulation-2d-arrays](#07-matrix-manipulation-2d-arrays)
   - [08-greedy-algorithms](#08-greedy-algorithms)
+  - [09-important-coding-problems](#09-important-coding-problems)
 
 
 ## Graph Theory
@@ -177,3 +178,8 @@ Matrix manipulation refers to a wide range of operations that can be performed o
 A greedy algorithm is an approach to solving optimization problems by making a series of decisions, each of which is locally optimal at the time. The idea is that by making the best possible choice at each step, the algorithm will ultimately arrive at a globally optimal solution. Some samples implemented:
   - Best Time to Buy and Sell Stock
   - Coin Change Problem
+
+### 09-important-coding-problems
+Some of the important and most common coding problems related to Arrays Data Structure.
+  - Product of Array Except Self
+  - Maximum Product Subarray
