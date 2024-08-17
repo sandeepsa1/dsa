@@ -183,3 +183,46 @@ A greedy algorithm is an approach to solving optimization problems by making a s
 Some of the important and most common coding problems related to Arrays Data Structure.
   - Product of Array Except Self
   - Maximum Product Subarray
+
+
+# My Project
+
+Welcome to the documentation for My Project. Below are some expandable sections that provide additional details.
+
+<details>
+  <summary>Section 1: Introduction</summary>
+  
+  ### Introduction to My Project
+  
+  This section covers the basics of My Project, including what it does and why it's useful.
+  
+  - **Feature 1**: Description of feature 1.
+  - **Feature 2**: Description of feature 2.
+  - **Feature 3**: Description of feature 3.
+  
+</details>
+
+<details>
+  <summary>Section 2: Installation</summary>
+  
+  ### How to Install My Project
+  
+  Follow these steps to install My Project on your local machine:
+  
+  1. Step 1: Download the repository.
+  2. Step 2: Run the installation script.
+  3. Step 3: Start using the project.
+  
+</details>
+
+<details>
+  <summary>Section 3: Usage</summary>
+  
+  ### How to Use My Project
+  
+  Learn how to use My Project with these simple examples:
+  
+  ```python
+  # Example 1
+  from my_project import my_function
+  my_function()
