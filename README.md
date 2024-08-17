@@ -41,6 +41,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [05-divide-and-conquer](#05-divide-and-conquer)
   - [06-dynamic-programming](#06-dynamic-programming)
   - [07-matrix-manipulation-2d-arrays](#07-matrix-manipulation-2d-arrays)
+  - [08-greedy-algorithms](#08-greedy-algorithms)
 
 
 ## Graph Theory
@@ -171,3 +172,8 @@ Dynamic Programming (DP) is an algorithmic technique used for solving complex pr
 Matrix manipulation refers to a wide range of operations that can be performed on 2D arrays (also known as matrices). Implemented Matrix Manipulation Operations are:
   - Rotate n * n Matrix in 90, 180 or 270 Degrees
   - Spiral Order Traversal
+
+### 08-greedy-algorithms
+A greedy algorithm is an approach to solving optimization problems by making a series of decisions, each of which is locally optimal at the time. The idea is that by making the best possible choice at each step, the algorithm will ultimately arrive at a globally optimal solution. Some samples implemented:
+  - Best Time to Buy and Sell Stock
+  - Coin Change Problem
