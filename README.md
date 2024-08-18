@@ -190,3 +190,6 @@ A greedy algorithm is an approach to solving optimization problems by making a s
 Some of the important and most common coding problems related to Arrays Data Structure.
   - Product of Array Except Self
   - Maximum Product Subarray
+  - Find Minimum in Rotated Sorted Array
+  - Search in Rotated Sorted Array
+  - Merge Intervals
