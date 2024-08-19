@@ -51,8 +51,14 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [09-important-coding-problems](#09-important-coding-problems)
 </details>
 
+<details>
+  <summary>3. Strings</summary>
+  
+  - [01-pattern-matching](#01-pattern-matching)
+</details>
 
-## Graph Theory
+
+## 1. Graph Theory
 
 ### 01-dfs
 This section contains DFS algorithms and their various uses and variations, including traversal, path finding, topological sort, and spanning trees.
@@ -133,7 +139,7 @@ Kruskal's algorithm to find the maximum spanning tree of a weighted graph.
 Minimum Cost Maximum Flow algorithm using a basic implementation of the Successive Shortest Path Algorithm (SSPA) combined with Bellman-Ford to find shortest paths.
 
 
-## Arrays
+## 2. Arrays
 
 ### 01-search
 Implement array search algorithms.
@@ -193,3 +199,13 @@ Some of the important and most common coding problems related to Arrays Data Str
   - Find Minimum in Rotated Sorted Array
   - Search in Rotated Sorted Array
   - Merge Intervals
+
+
+## 3. Strings
+
+### 01-pattern-matching
+String pattern matching algorithms are techniques used to find occurrences of a "pattern" within a "text" . These algorithms are fundamental in various applications, including text editors, search engines, DNA sequencing, and more. Following pattern matching algorithms are implemented:
+  - Naive Pattern Matching
+  - Knuth-Morris-Pratt (KMP)
+  - Rabin-Karp
+  - Boyer-Moore (Most efficient among these)
