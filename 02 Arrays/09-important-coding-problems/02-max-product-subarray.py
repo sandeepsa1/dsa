@@ -1,28 +1,21 @@
-def find_three_sum(arry, target):
-    arry.sort()
-    n = len(arry)
+def max_product_subarray(nums):
+    if not nums:
+        return 0
 
-    for i in range(n - 2):
-        if(i > 0 and arry[i] == arry[i - 1]): # Avoid duplicates
-            continue
+    max_product = min_product = result = nums[0]
 
-        left, right = i + 1, n - 1
-        while left < right:
-            current_sum = arry[i] + arry[left] + arry[right]
+    for num in nums[1:]:
+        if num < 0:
+            max_product, min_product = min_product, max_product
+        
+        max_product = max(num, max_product * num)
+        min_product = min(num, min_product * num)
+        
+        result = max(result, max_product)
+    
+    return result
 
-            if current_sum == target:
-                return arry[i], arry[left], arry[right]
-            elif current_sum < target: # Move left to increase sum since arry is sorted
-                left += 1
-            else:
-                right -= 1
 
-    return None
-
-arry = [2, 7, 15, 19, 11]
-target = 24
-result = find_three_sum(arry, target)
-if result:
-    print(f"Three numbers that sum up to {target} are: {result}")
-else:
-    print("No three numbers found that sum up to the target.")
+nums = [2, 3, -2, 4]
+result = max_product_subarray(nums)
+print(f"The maximum product subarray is: {result}")
