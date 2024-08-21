@@ -9,11 +9,11 @@ Algorithms included here are;
 ### 1. Longest Common Subsequence
 The "Longest Common Subsequence" (LCS) problem involves finding the longest subsequence that appears in the same order in both given strings. A subsequence is a sequence derived from another sequence by deleting some or no elements without changing the order of the remaining elements.</br>
 
-Steps are exactly same as finding the Longest Common Subsequence of arrays.
+<b>Steps are exactly same as finding the Longest Common Subsequence of arrays.</b>
 
 #### Key Difference between Longest Common Substring and Longest Common Subsequence
-    - <b>Longest Common Subsequence</b>: The LCS is a sequence that appears in the same order in both strings, but not necessarily consecutively. For example, the LCS of "abcde" and "ace" is "ace".
-    - <b>Longest Common Substring</b>: The longest common substring is a sequence that appears as a consecutive block in both strings. For example, the longest common substring of "abcde" and "abfce" is "ab".
+1. <b>Longest Common Subsequence</b>: The LCS is a sequence that appears in the same order in both strings, but not necessarily consecutively. For example, the LCS of "abcde" and "ace" is "ace".
+2. <b>Longest Common Substring</b>: The longest common substring is a sequence that appears as a consecutive block in both strings. For example, the longest common substring of "abcde" and "abfce" is "ab".
 
 ### 2. Edit Distance (Levenshtein Distance)
 The goal is to find the minimum number of operations required to transform one string into another. The allowed operations are:
