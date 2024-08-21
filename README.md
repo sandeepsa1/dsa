@@ -217,7 +217,7 @@ A substring is a contiguous sequence of characters within a string. Substring pr
   - Longest Common Substring
   - Longest Palindromic Substring
 
-### 06-dynamic-programming
+### 03-dynamic-programming
 Dynamic Programming (DP) to solve string related problems.
   - Longest Common Subsequence
   - Compute the Minimum Number of Operations to Transform One String into Another
