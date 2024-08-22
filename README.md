@@ -57,6 +57,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [01-pattern-matching](#01-pattern-matching)
   - [02-substring-problems](#02-substring-problems)
   - [03-dynamic-programming](#03-dynamic-programming)
+  - [04-string-transformations](#04-string-transformations)
 </details>
 
 
@@ -221,3 +222,8 @@ A substring is a contiguous sequence of characters within a string. Substring pr
 Dynamic Programming (DP) to solve string related problems.
   - Longest Common Subsequence
   - Compute the Minimum Number of Operations to Transform One String into Another
+
+### 04-string-transformations
+String transformation generally refers to the process of converting one string into another, converting string to integer or vice versa, changing case, etc.
+  - String to Integer (atoi)
+  - Integer to String (itoa)
