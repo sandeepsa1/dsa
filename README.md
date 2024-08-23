@@ -58,6 +58,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-substring-problems](#02-substring-problems)
   - [03-dynamic-programming](#03-dynamic-programming)
   - [04-string-transformations](#04-string-transformations)
+  - [05-trie-based-algorithms](#05-trie-based-algorithms)
 </details>
 
 
@@ -227,3 +228,9 @@ Dynamic Programming (DP) to solve string related problems.
 String transformation generally refers to the process of converting one string into another, converting string to integer or vice versa, changing case, etc.
   - String to Integer (atoi)
   - Integer to String (itoa)
+
+### 05-trie-based-algorithms
+Trie-based algorithms uses adata structure called a Trie or prefix tree to efficiently store and retrieve strings, typically used for solving problems related to searching, prefix matching, and autocomplete functionalities.
+  - Trie Construction
+  - Autocomplete
+  - Longest Common Prefix
