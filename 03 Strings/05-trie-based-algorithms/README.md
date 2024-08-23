@@ -1,5 +1,5 @@
 ## Trie Based algorithms
-Trie based algorithms are a class of algorithms that use a data structure called a Trie (pronounced "try") or prefix tree to efficiently store and retrieve strings, typically used for solving problems related to searching, prefix matching, and autocomplete functionalities.<br/><br/>
+Trie based algorithms are a class of algorithms that use a data structure called a Trie (pronounced "try") or prefix tree to efficiently store and retrieve strings, typically used for solving problems related to searching, prefix matching, and autocomplete functionalities.<br/>
 
 A Trie is a tree-like data structure that stores a dynamic set of strings, where each node represents a single character of a string. The path from the root to a particular node represents a prefix of one or more strings in the Trie.<br/>
 

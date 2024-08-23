@@ -230,7 +230,7 @@ String transformation generally refers to the process of converting one string i
   - Integer to String (itoa)
 
 ### 05-trie-based-algorithms
-Trie-based algorithms uses adata structure called a Trie or prefix tree to efficiently store and retrieve strings, typically used for solving problems related to searching, prefix matching, and autocomplete functionalities.
+Trie-based algorithms uses a data structure called a Trie or prefix tree to efficiently store and retrieve strings, typically used for solving problems related to searching, prefix matching, and autocomplete functionalities.
   - Trie Construction
   - Autocomplete
   - Longest Common Prefix
