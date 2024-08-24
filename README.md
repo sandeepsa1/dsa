@@ -241,4 +241,4 @@ Some of the important and most common coding problems related to Strings.
   - Anagram Check
   - Group Anagrams
   - Count and Say
-  - Search in Rotated Sorted Array
+  - Z-Algorithm
