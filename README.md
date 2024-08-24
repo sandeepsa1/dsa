@@ -59,6 +59,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [03-dynamic-programming](#03-dynamic-programming)
   - [04-string-transformations](#04-string-transformations)
   - [05-trie-based-algorithms](#05-trie-based-algorithms)
+  - [06-important-coding-problems](#06-important-coding-problems)
 </details>
 
 
@@ -234,3 +235,10 @@ Trie-based algorithms uses a data structure called a Trie or prefix tree to effi
   - Trie Construction
   - Autocomplete
   - Longest Common Prefix
+
+### 06-important-coding-problems
+Some of the important and most common coding problems related to Strings.
+  - Anagram Check
+  - Group Anagrams
+  - Count and Say
+  - Search in Rotated Sorted Array
