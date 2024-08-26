@@ -242,3 +242,6 @@ Some of the important and most common coding problems related to Strings.
   - Group Anagrams
   - Count and Say
   - Z-Algorithm
+  - Valid Parentheses
+  - Minimum Window Substring
+  - Zigzag Conversion
