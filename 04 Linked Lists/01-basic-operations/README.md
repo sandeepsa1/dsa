@@ -1,4 +1,4 @@
-## String Pattern Matching Algorithms
+## Linked Lists
 Linked lists are a fundamental data structure in computer science, used to store a collection of elements in a linear order. Unlike arrays, linked lists do not store elements in contiguous memory locations. Instead, each element (or node) contains a reference (or pointer) to the next element in the sequence.</br>
 
 #### Types of Linked Lists
