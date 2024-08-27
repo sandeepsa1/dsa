@@ -62,6 +62,12 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [06-important-coding-problems](#06-important-coding-problems)
 </details>
 
+<details>
+  <summary>4. Linked Lists</summary>
+  
+  - [01-basic-operations](#01-basic-operations)
+</details>
+
 
 ## 1. Graph Theory
 
@@ -245,3 +251,13 @@ Some of the important and most common coding problems related to Strings.
   - Valid Parentheses
   - Minimum Window Substring
   - Zigzag Conversion
+
+
+## 4. Linked Lists
+  
+### 01-basic-operations
+Basic Linked List operations.
+  - Traversal
+  - Insert/Update/Delete
+  - Reverse a Linked List
+  - Check if a Linked List is a Palindrome
