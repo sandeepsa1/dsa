@@ -66,6 +66,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   <summary>4. Linked Lists</summary>
   
   - [01-basic-operations](#01-basic-operations)
+  - [02-clone-merge-partition-flattening-intersection](#02-clone-merge-partition-flattening-intersection)
 </details>
 
 
@@ -261,3 +262,12 @@ Basic Linked List operations.
   - Insert/Update/Delete
   - Reverse a Linked List
   - Check if a Linked List is a Palindrome
+
+### 02-clone-merge-partition-flattening-intersection
+Clone, Merge, Flattening, Partition and Intersection of Linked Lists
+  - Clone a Linked List with Random Pointers
+  - Merge Two Sorted Lists
+  - Merge K Sorted Lists
+  - Partition List
+  - Flatten a Multilevel Doubly Linked List
+  - Find Intersection Node
