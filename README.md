@@ -67,6 +67,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   
   - [01-basic-operations](#01-basic-operations)
   - [02-clone-merge-partition-flattening-intersection](#02-clone-merge-partition-flattening-intersection)
+  - [03-cycle-detection-find-kth-element](#03-cycle-detection-find-kth-element)
 </details>
 
 
@@ -271,3 +272,8 @@ Clone, Merge, Flattening, Partition and Intersection of Linked Lists
   - Partition List
   - Flatten a Multilevel Doubly Linked List
   - Find Intersection Node
+
+### 03-cycle-detection-find-kth-element
+Cycle Detection and find Kth Element
+  - Detect a Cycle and Find the Starting Node of the Cycle
+  - Find Kth to Last Element
