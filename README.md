@@ -68,6 +68,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [01-basic-operations](#01-basic-operations)
   - [02-clone-merge-partition-flattening-intersection](#02-clone-merge-partition-flattening-intersection)
   - [03-cycle-detection-find-kth-element](#03-cycle-detection-find-kth-element)
+  - [04-sort-reverse-split-reorder-rotate](#04-sort-reverse-split-reorder-rotate)
 </details>
 
 
@@ -277,3 +278,12 @@ Clone, Merge, Flattening, Partition and Intersection of Linked Lists
 Cycle Detection and find Kth Element
   - Detect a Cycle and Find the Starting Node of the Cycle
   - Find Kth to Last Element
+
+### 04-sort-reverse-split-reorder-rotate
+Sort, Reverse, Split, Reorder and Rotate operations of Linked Lists
+  - Sort List
+  - Remove Duplicates from Sorted List
+  - Reverse Nodes in k-Group
+  - Split Linked List in Parts
+  - Reorder List
+  - Rotate List
