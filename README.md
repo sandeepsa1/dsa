@@ -69,6 +69,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-clone-merge-partition-flattening-intersection](#02-clone-merge-partition-flattening-intersection)
   - [03-cycle-detection-find-kth-element](#03-cycle-detection-find-kth-element)
   - [04-sort-reverse-split-reorder-rotate](#04-sort-reverse-split-reorder-rotate)
+  - [05-important-coding-problems](#05-important-coding-problems)
 </details>
 
 
@@ -287,3 +288,9 @@ Sort, Reverse, Split, Reorder and Rotate operations of Linked Lists
   - Split Linked List in Parts
   - Reorder List
   - Rotate List
+
+### 05-important-coding-problems
+Some of the important and most common coding problems related to Linked Lists.
+  - Add Two Numbers
+  - Swap Nodes in Pairs
+  - Odd Even Linked List
