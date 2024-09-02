@@ -75,7 +75,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
 <details>
   <summary>5. Stacks</summary>
   
-  - [01-basic-operations](#01-basic-operations)
+  - [01-stack-basic-operations](#01-stack-basic-operations)
 </details>
 
 
@@ -304,7 +304,7 @@ Some of the important and most common coding problems related to Linked Lists.
 
 ## 05. Stacks
 
-### 01-basic-operations
+### 01-stack-basic-operations
 Basic Stack operations.
   - Push, Pop, Peek, IsEmpty
   - Sort a Stack
