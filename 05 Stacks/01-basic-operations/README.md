@@ -71,7 +71,8 @@ Final Result:
 
 
 ### 5. Min Stack
-Designing a stack that supports 'push', 'pop', and retrieving the 'minimum' element in constant time requires an auxiliary stack to keep track of the minimum elements.
+A Min Stack is a special type of stack that supports not only the standard stack operations ('push', 'pop', 'peek', 'isEmpty') but also provides an operation to retrieve the minimum element in the stack in constant time, O(1). This is particularly useful in scenarios where you need to track the minimum value dynamically as elements are added or removed from the stack.</br>
+Designing a stack requires an auxiliary stack to keep track of the minimum elements.
 
 1. Time complexity: <b>𝑂(1)</b>
 2. Space complexity: <b>𝑂(n)</b></br>
