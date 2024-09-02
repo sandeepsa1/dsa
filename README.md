@@ -72,6 +72,12 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [05-important-coding-problems](#05-important-coding-problems)
 </details>
 
+<details>
+  <summary>5. Stacks</summary>
+  
+  - [01-basic-operations](#01-basic-operations)
+</details>
+
 
 ## 1. Graph Theory
 
@@ -294,3 +300,16 @@ Some of the important and most common coding problems related to Linked Lists.
   - Add Two Numbers
   - Swap Nodes in Pairs
   - Odd Even Linked List
+
+
+## 05. Stacks
+
+### 01-basic-operations
+Basic Stack operations.
+  - Push, Pop, Peek, IsEmpty
+  - Sort a Stack
+  - Reverse a String
+  - Evaluate Reverse Polish Notation
+  - Min Stack
+  - Infix to Postfix Conversion
+  - Evaluate Postfix Expression
