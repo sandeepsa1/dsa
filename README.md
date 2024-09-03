@@ -76,6 +76,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   <summary>5. Stacks</summary>
   
   - [01-stack-basic-operations](#01-stack-basic-operations)
+  - [02-important-coding-problems](#02-important-coding-problems)
 </details>
 
 
@@ -313,3 +314,12 @@ Basic Stack operations.
   - Min Stack
   - Infix to Postfix Conversion
   - Evaluate Postfix Expression
+
+### 02-important-coding-problems
+Some of the important and most common coding problems related to Stacks.
+  - Next Greater Element - One Array
+  - Next Greater Element - Two Arrays
+  - Stock Span Problem
+  - Daily Temperatures
+  - Largest Rectangle in Histogram
+  - Trapping Rain Water
