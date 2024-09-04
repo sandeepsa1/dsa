@@ -5,7 +5,7 @@ A stack is a linear data structure that follows the Last In, First Out (LIFO) pr
 1. <b>Push, Pop, Peek, IsEmpty</b>: Basic Stack operations
 2. <b>Sort a Stack</b>: Sort the elements in a stack using another stack.
 3. <b>Reverse a String</b>: Reverse the characters in a string using a stack.
-4. <b>Evaluate Reverse Polish Notation</b>: Description: Evaluate the value of an arithmetic expression in Reverse Polish Notation.
+4. <b>Evaluate Reverse Polish Notation</b>: Evaluate the value of an arithmetic expression in Reverse Polish Notation.
 5. <b>Min Stack</b>: Design a stack that supports push, pop, and retrieving the minimum element in constant time.
 6. <b>Infix to Postfix Conversion</b>: Convert an infix expression (e.g., a + b) to a postfix expression (e.g., ab+).
 7. <b>Evaluate Postfix Expression</b>: Evaluate a postfix expression to get the result.
