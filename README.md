@@ -79,6 +79,12 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-important-coding-problems](#02-important-coding-problems)
 </details>
 
+<details>
+  <summary>6. Queues</summary>
+  
+  - [01-queue-basic-operations](#01-queue-basic-operations)
+</details>
+
 
 ## 1. Graph Theory
 
@@ -323,3 +329,14 @@ Some of the important and most common coding problems related to Stacks.
   - Daily Temperatures
   - Largest Rectangle in Histogram
   - Trapping Rain Water
+
+
+## 06. Queues
+
+### 01-queue-basic-operations
+Basic Queue operations.
+  - Enqueue, Dequeue, Front, isEmpty
+  - Circular Queue
+  - Queue using Stacks
+  - Generate Binary Numbers
+  - Level Order Traversal of Binary Tree
