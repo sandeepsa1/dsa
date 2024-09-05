@@ -83,6 +83,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   <summary>6. Queues</summary>
   
   - [01-queue-basic-operations](#01-queue-basic-operations)
+  - [02-important-coding-problems-queue](#02-important-coding-problems-queue)
 </details>
 
 
@@ -340,3 +341,12 @@ Basic Queue operations.
   - Queue using Stacks
   - Generate Binary Numbers
   - Level Order Traversal of Binary Tree
+
+### 02-important-coding-problems-queue
+Some of the important and most common coding problems related to Queues.
+  - Sliding Window Maximum
+  - LRU Cache
+  - Rotten Oranges
+  - Moving Average from Data Stream
+  - Number of Recent Calls
+  - Course Schedule
