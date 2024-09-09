@@ -86,6 +86,12 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-important-coding-problems-queue](#02-important-coding-problems-queue)
 </details>
 
+<details>
+  <summary>7. Trees</summary>
+  
+  - [01-traversal](#01-traversal)
+</details>
+
 
 ## 1. Graph Theory
 
@@ -350,3 +356,13 @@ Some of the important and most common coding problems related to Queues.
   - Moving Average from Data Stream
   - Number of Recent Calls
   - Course Schedule
+
+
+## 7. Trees
+
+### 01-traversal
+Implement tree traversal algorithms.
+  - Inorder Traversal
+  - Preorder Traversal
+  - Postorder Traversal
+  - Level Order Traversal
