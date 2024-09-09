@@ -57,9 +57,9 @@ Level Order Traversal is a tree traversal algorithm that visits nodes level by l
 
 
 ### Comparison of Different Types of Tree Traversals
-| Traversal     | Use Cases                                                                                                     |
-| ------------- |---------------------------------------------------------------------------------------------------------------|
-| Inorder       | Retrieving nodes in sorted order from a BST, to validate if a binary tree is a valid BST                      |
-| Preorder      | Tree construction, evaluate prefix expressions in expression trees, copying trees since root is copied first  |
-| Postorder     | Deleting trees because child nodes are deleted first, evaluate postfix expressions, bottom-up calculations    |
-| Level Order   | Breadth-First Search when exploring nodes level by level, shortest paths, completeness of tree, print trees   |
+| Traversal     | Use Cases                                                                                                        |
+| ------------- |------------------------------------------------------------------------------------------------------------------|
+| Inorder       | Retrieving nodes in sorted order from a BST, to validate if a binary tree is a valid BST.                        |
+| Preorder      | Tree construction, evaluate prefix expressions in expression trees, copying trees since root is copied first.    |
+| Postorder     | Deleting trees because child nodes are deleted first, evaluate postfix expressions, bottom-up calculations.      |
+| Level Order   | Breadth-First Search when exploring nodes level by level, shortest paths, completeness of tree, print trees.     |
