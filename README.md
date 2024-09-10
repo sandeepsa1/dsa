@@ -90,6 +90,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   <summary>7. Trees</summary>
   
   - [01-traversal](#01-traversal)
+  - [02-binary-search-tree](#02-binary-search-tree)
 </details>
 
 
@@ -367,3 +368,10 @@ Implement tree traversal algorithms.
   - Postorder Traversal
   - Level Order Traversal
   - Non-Binary Tree Traversal
+
+### 02-binary-search-tree
+  - Insert, Update, Delete
+  - Search
+  - Binary Search Tree Iterator
+  - Kth Smallest Element in a BST
+  - Minimum Distance Between BST Nodes
