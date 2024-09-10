@@ -28,9 +28,9 @@ The Insert, Update, and Delete operations on a Binary Search Tree (BST) follow s
     3. If the value is smaller, move to the left subtree.
     4. If the value is larger, move to the right subtree.
     5. Insert the value when an empty spot ('-1' in this case) is found.
-2. Update
+2. Update</br>
     The Update operation involves finding a node with a specific value and changing its value. In a standard BST, updating a node directly may break the BST property. Instead, the process involves deleting the node and reinserting the new value.
-3. Delete
+3. Delete</br>
     The Delete operation in a BST has three cases:
     1. Node has no children (leaf): Simply remove the node.
     2. Node has one child: Replace the node with its child.
