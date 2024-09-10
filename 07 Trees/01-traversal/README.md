@@ -6,6 +6,7 @@ Different tree traversal algorithms are;
 2. <b>Preorder Traversal</b>: Traverse the tree in the order: root, left subtree, right subtree.
 3. <b>Postorder Traversal</b>: Traverse the tree in the order: left subtree, right subtree, root.
 4. <b>Level Order Traversal</b>: Traverse the tree level by level, from left to right.
+5. <b>Non-Binary Tree Traversal</b>: Preorder, Postorder and Level Order Traversal of non binary trees.
 
 
 ### 1. Inorder Traversal
@@ -54,6 +55,14 @@ Level Order Traversal is a tree traversal algorithm that visits nodes level by l
 1. Start at the root node.
 2. Visit all nodes at the current level, from left to right.
 3. Move to the next level and repeat the process until all nodes are visited.
+
+
+### 5. Non-Binary Tree Traversal
+Preorder, Postorder, and Level Order can be adapted for non-binary trees (also known as n-ary trees), where a node can have more than two children.
+
+#### Steps
+1. Visit the root node.
+2. Recursively traverse each child of the root node from left to right.
 
 
 ### Comparison of Different Types of Tree Traversals
