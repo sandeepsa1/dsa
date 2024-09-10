@@ -1,8 +1,8 @@
 ## Binary Search Tree (BST)
 A Binary Search Tree (BST) is a type of binary tree in which each node follows a specific ordering property:
-    - Left Subtree: All nodes in the left subtree of a node contain values less than the node’s value.
-    - Right Subtree: All nodes in the right subtree of a node contain values greater than the node’s value.
-    - This property holds for every node in the tree.
+- Left Subtree: All nodes in the left subtree of a node contain values less than the node’s value.
+- Right Subtree: All nodes in the right subtree of a node contain values greater than the node’s value.
+- This property holds for every node in the tree.
 
 ### Key Properties:
 1. <b>Binary Structure</b>: Each node has at most two children (left and right).
@@ -39,8 +39,8 @@ The Insert, Update, and Delete operations on a Binary Search Tree (BST) follow s
 
 ### 2. Search
 To find if a value exists in a Binary Search Tree (BST), the search algorithm leverages the BST property, where:
-    - The left subtree contains values less than the current node.
-    - The right subtree contains values greater than the current node.
+- The left subtree contains values less than the current node.
+- The right subtree contains values greater than the current node.
 By comparing the target value with the current node and deciding which subtree to search, the algorithm can efficiently determine if the value exists.
 
 1. Time complexity: <b>𝑂(log n)</b>
@@ -56,8 +56,8 @@ By comparing the target value with the current node and deciding which subtree t
 
 ### 3. Binary Search Tree Iterator
 To implement an iterator over a Binary Search Tree (BST), we need two primary methods:
-    - 'hasNext()': Returns 'True' if there are still nodes to be visited, and 'False' otherwise.
-    - 'next()': Returns the next smallest element in the BST, in inorder traversal order (since inorder traversal of a BST visits nodes in ascending order).
+- 'hasNext()': Returns 'True' if there are still nodes to be visited, and 'False' otherwise.
+- 'next()': Returns the next smallest element in the BST, in inorder traversal order (since inorder traversal of a BST visits nodes in ascending order).
 
 1. Time complexity: <b>𝑂(1)</b>
 2. Space complexity: <b>𝑂(h)</b>, where h is the height of the tree
