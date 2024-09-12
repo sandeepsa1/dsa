@@ -92,6 +92,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [01-traversal](#01-traversal)
   - [02-binary-search-tree](#02-binary-search-tree)
   - [03-lowest-common-ancestor](#03-lowest-common-ancestor)
+  - [04-tree-properties-and-checks](#04-tree-properties-and-checks)
 </details>
 
 
@@ -380,3 +381,9 @@ Implement tree traversal algorithms.
 ### 03-lowest-common-ancestor
   - LCA of a Binary Tree
   - LCA of a Binary Search Tree
+
+### 04-tree-properties-and-checks
+  - Height of a Tree
+  - Diameter of a Tree
+  - Diameter of Binary Tree
+  - Maximum Depth of Binary Tree
