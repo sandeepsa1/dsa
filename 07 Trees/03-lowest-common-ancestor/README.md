@@ -22,8 +22,8 @@ To find the LCA of two nodes in a general binary tree, use a recursive approach.
 
 ### 2. LCA of a Binary Search Tree
 To find the Lowest Common Ancestor (LCA) of two nodes in a Binary Search Tree (BST), use the properties of the BST:
-    - In a BST, the values of the nodes in the left subtree are smaller than the value of the root.
-    - The values of the nodes in the right subtree are larger than the value of the root.
+- In a BST, the values of the nodes in the left subtree are smaller than the value of the root.
+- The values of the nodes in the right subtree are larger than the value of the root.
 
 1. Time complexity: <b>𝑂(h)</b>
 2. Space complexity: <b>𝑂(1)</b>
