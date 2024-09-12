@@ -63,12 +63,12 @@ insert_bst(tree, root, 10)
 insert_bst(tree, root, 1)
 insert_bst(tree, root, 6)
 output = inorder_traversal(tree, root)
-print("BST after Insert:", output)
+print("BST after Insert:", output) # [1, 3, 6, 8, 10]
 
 root = update_bst(tree, root, 6, 7)
 output = inorder_traversal(tree, root)
-print("BST after Update:", output)
+print("BST after Update:", output) # [1, 3, 7, 8, 10]
 
 root = delete_bst(tree, root, 10)
 output = inorder_traversal(tree, root)
-print("BST after Delete:", output)
+print("BST after Delete:", output) # [1, 3, 7, 8]

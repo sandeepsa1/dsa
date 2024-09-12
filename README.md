@@ -91,6 +91,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   
   - [01-traversal](#01-traversal)
   - [02-binary-search-tree](#02-binary-search-tree)
+  - [03-lowest-common-ancestor](#03-lowest-common-ancestor)
 </details>
 
 
@@ -375,3 +376,7 @@ Implement tree traversal algorithms.
   - Binary Search Tree Iterator
   - Kth Smallest Element in a BST
   - Minimum Distance Between BST Nodes
+
+### 03-lowest-common-ancestor
+  - LCA of a Binary Tree
+  - LCA of a Binary Search Tree
