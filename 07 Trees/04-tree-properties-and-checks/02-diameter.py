@@ -7,18 +7,11 @@ def find_diameter(tree, root):
         if node == -1 or node not in tree:
             return -1
         
-        subtree_heights = []        
-        for child in tree[node]:
-            if child != -1:
-                subtree_heights.append(diameter_helper(child) + 1)
+        depths = [diameter_helper(child) + 1 for child in tree[node]]        
+        depths.sort(reverse=True)
         
-        if not subtree_heights:
-            return 0
-        
-        subtree_heights.sort(reverse=True)
-        
-        largest = subtree_heights[0]
-        second_largest = subtree_heights[1] if len(subtree_heights) > 1 else 0
+        largest = depths[0] if len(depths) > 0 else 0
+        second_largest = depths[1] if len(depths) > 1 else 0
         
         max_diameter = max(max_diameter, largest + second_largest)
         
