@@ -1,21 +1,30 @@
-def compute_diameter(tree, root):
+def find_diameter(tree, root):
     global max_diameter
     max_diameter = 0
     
-    def height(node):
-        global max_diameter
-        if node == -1:
+    def diameter_helper(node):
+        global max_diameter        
+        if node == -1 or node not in tree:
             return -1
         
-        left_height = height(tree[node][0])
-        right_height = height(tree[node][1])
+        subtree_heights = []        
+        for child in tree[node]:
+            if child != -1:
+                subtree_heights.append(diameter_helper(child) + 1)
         
-        max_diameter = max(max_diameter, left_height + right_height + 2)
+        if not subtree_heights:
+            return 0
         
-        return max(left_height, right_height) + 1
+        subtree_heights.sort(reverse=True)
+        
+        largest = subtree_heights[0]
+        second_largest = subtree_heights[1] if len(subtree_heights) > 1 else 0
+        
+        max_diameter = max(max_diameter, largest + second_largest)
+        
+        return largest
     
-    height(root)
-    
+    diameter_helper(root)
     return max_diameter
 
 
@@ -27,7 +36,7 @@ def compute_diameter(tree, root):
 #    4  5  6
 #   /       \
 #  8         7
-tree = {
+tree = { 
     1: [2, 3],
     2: [4, 5, 6],
     3: [-1, -1],
@@ -39,5 +48,5 @@ tree = {
 }
 
 root = 1
-diameter = compute_diameter(tree, root)
-print(f"Diameter of the tree: {diameter}")  # 4 (8 -> 4 -> 2 -> 6 -> 7)
+diameter = find_diameter(tree, root)
+print("The diameter of the non-binary tree is:", diameter) # 4 (8 -> 4 -> 2 -> 6 -> 7)
