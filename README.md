@@ -387,3 +387,6 @@ Implement tree traversal algorithms.
   - Diameter of a Tree
   - Diameter of Binary Tree
   - Maximum Depth of Binary Tree
+  - Balanced Tree Check
+  - Check for Symmetry
+  - Sum of Left Leaves
