@@ -40,4 +40,4 @@ tree = {
 
 root = 1
 diameter = compute_diameter(tree, root)
-print(f"Diameter of the tree: {diameter}")  # 4
+print(f"Diameter of the tree: {diameter}")  # 4 (8 -> 4 -> 2 -> 6 -> 7)
