@@ -93,6 +93,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-binary-search-tree](#02-binary-search-tree)
   - [03-lowest-common-ancestor](#03-lowest-common-ancestor)
   - [04-tree-properties-and-checks](#04-tree-properties-and-checks)
+  - [05-tree-construction-and-transformation](#05-tree-construction-and-transformation)
 </details>
 
 
@@ -390,3 +391,9 @@ Implement tree traversal algorithms.
   - Balanced Tree Check
   - Check for Symmetry
   - Sum of Left Leaves
+
+### 05-tree-construction-and-transformation
+  - Convert BST to Sorted Doubly Linked List
+  - Convert Sorted Array to Binary Search Tree
+  - Invert Binary Tree
+  - Construct Binary Tree from Preorder and Inorder Traversal
