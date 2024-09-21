@@ -94,6 +94,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [03-lowest-common-ancestor](#03-lowest-common-ancestor)
   - [04-tree-properties-and-checks](#04-tree-properties-and-checks)
   - [05-tree-construction-and-transformation](#05-tree-construction-and-transformation)
+  - [06-special-algorithms-and-operations](#06-special-algorithms-and-operations)
 </details>
 
 
@@ -397,3 +398,9 @@ Implement tree traversal algorithms.
   - Convert Sorted Array to Binary Search Tree
   - Invert Binary Tree
   - Construct Binary Tree from Preorder and Inorder Traversal
+
+### 06-special-algorithms-and-operations
+  - Find Path Sum
+  - Find Duplicate Subtrees
+  - Recover Binary Search Tree
+  - Tree to String - Serialize and Deserialize
