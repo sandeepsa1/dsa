@@ -97,6 +97,12 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [06-special-algorithms-and-operations](#06-special-algorithms-and-operations)
 </details>
 
+<details>
+  <summary>8. Hash Tables</summary>
+  
+  - [01-basic-hash-table-operations](#01-basic-hash-table-operations)
+</details>
+
 
 ## 1. Graph Theory
 
@@ -404,3 +410,11 @@ Implement tree traversal algorithms.
   - Find Duplicate Subtrees
   - Recover Binary Search Tree
   - Tree to String - Serialize and Deserialize
+
+
+## 8. Hash Tables
+
+### 01-basic-hash-table-operations
+  - Insert, Update, Delete, Search
+  - Hash Functions
+  - Rehashing
