@@ -13,8 +13,8 @@ If hash table is used:
 
 #### Basic Operations
 1. <b>Insert, Update, Delete, Search</b>: Insert, Update, Delete and Search operations on Hash Table.
-3. <b>Hash Functions</b>: Designing hash functions to distribute keys uniformly across the hash table.
-4. <b>Rehashing</b>: Dynamically resizing the hash table when it becomes too full to maintain efficient operations.
+2. <b>Hash Functions</b>: Designing hash functions to distribute keys uniformly across the hash table.
+3. <b>Rehashing</b>: Dynamically resizing the hash table when it becomes too full to maintain efficient operations.
 
 
 ### 1. Insert, Update, Delete, Search
