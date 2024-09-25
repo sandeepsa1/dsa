@@ -101,6 +101,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   <summary>8. Hash Tables</summary>
   
   - [01-basic-hash-table-operations](#01-basic-hash-table-operations)
+  - [02-frequency-and-duplicates](#02-frequency-and-duplicates)
 </details>
 
 
@@ -418,3 +419,9 @@ Implement tree traversal algorithms.
   - Insert, Update, Delete, Search
   - Hash Functions
   - Rehashing
+
+### 02-frequency-and-duplicates
+  - Counting Frequencies
+  - Finding Duplicates
+  - Top K Frequent Elements
+  - First Unique Character in a String
