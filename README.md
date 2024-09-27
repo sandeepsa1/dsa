@@ -102,6 +102,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   
   - [01-basic-hash-table-operations](#01-basic-hash-table-operations)
   - [02-frequency-and-duplicates](#02-frequency-and-duplicates)
+  - [03-subarray-and-substring-problems](#03-subarray-and-substring-problems)
 </details>
 
 
@@ -425,3 +426,7 @@ Implement tree traversal algorithms.
   - Finding Duplicates
   - Top K Frequent Elements
   - First Unique Character in a String
+
+### 03-subarray-and-substring-problems
+  - Subarray with Sum Zero
+  - Contiguous Array
