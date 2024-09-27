@@ -1,7 +1,7 @@
 ## Frequency and Duplicates
 Operations like counting the frequency of elements or finding duplicates.
 
-Samples included here are;
+Samples included are;
 1. <b>Counting Frequencies</b>: Count the frequency of elements in a collection.
 2. <b>Finding Duplicates</b>: Identify duplicates in an array or list.
 3. <b>Top K Frequent Elements</b>: Find the k most frequent elements in an array.
