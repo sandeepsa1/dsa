@@ -1,7 +1,7 @@
 ## Subarray and Substring Problems
 Subarray and Substring Problems using Hash Table.
 
-#### Basic Operations
+Samples included are;
 1. <b>Subarray with Sum Zero</b>: Determine if a subarray with a sum of zero exists.
 2. <b>Contiguous Array</b>: Given a binary array, find the maximum length of a contiguous subarray with an equal number of 0 and 1.
 
