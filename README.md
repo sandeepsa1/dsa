@@ -104,6 +104,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [02-frequency-and-duplicates](#02-frequency-and-duplicates)
   - [03-subarray-and-substring-problems](#03-subarray-and-substring-problems)
   - [04-anagram-and-isomorphic-problems](#04-anagram-and-isomorphic-problems)
+  - [05-with-multiple-arrays](#05-with-multiple-arrays)
 </details>
 
 
@@ -436,3 +437,9 @@ Implement tree traversal algorithms.
   - Find All Anagrams in a String
   - Isomorphic Strings
   - Minimum Index Sum of Two Lists
+
+### 05-with-multiple-arrays
+  - Happy Number
+  - Intersection of Two Arrays
+  - Longest Consecutive Sequence
+  - Four Sum II
