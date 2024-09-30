@@ -35,6 +35,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [25-longest-path-weighted-graph](#25-longest-path-weighted-graph)
   - [26-maximum-spanning-tree-kruskal](#26-maximum-spanning-tree-kruskal)
   - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)
+  - [28-other-graph-traversal-problems](#28-other-graph-traversal-problems)
 </details>
 
 <details>
@@ -187,6 +188,10 @@ Kruskal's algorithm to find the maximum spanning tree of a weighted graph.
 
 ### 27-minimum-cost-max-flow-using-sspa
 Minimum Cost Maximum Flow algorithm using a basic implementation of the Successive Shortest Path Algorithm (SSPA) combined with Bellman-Ford to find shortest paths.
+
+### 28-other-graph-traversal-problems
+Graph Traversal and Pathfinding Problems.
+  - Number of Islands
 
 
 ## 2. Arrays
