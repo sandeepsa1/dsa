@@ -8,8 +8,8 @@ Samples included are;
 ### 1. Number of Islands
 The problem of counting the number of islands in a 2D grid of '1's (land) and '0's (water) can be solved using graph traversal techniques like Depth-First Search (DFS) or Breadth-First Search (BFS). Each island is a group of connected '1's (vertically or horizontally connected).
 
-1. Time complexity: <b>𝑂(log n)</b>
-2. Space complexity: <b>𝑂(log n)</b>
+1. Time complexity: <b>𝑂(n * m)</b>
+2. Space complexity: <b>𝑂(n * m)</b>
 
 #### Steps
 1. Traverse the grid, cell by cell.
