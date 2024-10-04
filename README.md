@@ -193,6 +193,7 @@ Minimum Cost Maximum Flow algorithm using a basic implementation of the Successi
 Graph Traversal and Pathfinding Problems.
   - Number of Islands
   - Shortest Path in Binary Matrix
+  - Longest Path in a Matrix
 
 
 ## 2. Arrays
