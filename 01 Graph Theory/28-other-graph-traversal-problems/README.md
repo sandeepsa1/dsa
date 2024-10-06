@@ -5,6 +5,7 @@ Samples included are;
 1. <b>Number of Islands</b>: Given a 2D grid of '1's (land) and '0's (water), count the number of islands.
 2. <b>Shortest Path in Binary Matrix</b>: Given an n x n binary matrix, find the length of the shortest clear path from the top-left corner to the bottom-right corner.
 3. <b>Longest Path in a Matrix</b>: Given an m x n matrix of integers, find the length of the longest increasing path in the matrix.
+4. <b>The Maze</b>: Given a maze represented as a 2D grid, find the shortest path from the start to the destination.
 
 
 ### 1. Number of Islands
@@ -43,3 +44,13 @@ The problem of finding the Longest Path in a Matrix involves determining the max
 3. Edge Cases:
     - If the matrix is empty, return 0.
     - If all elements are the same, the longest path will be 1 (no increase).
+
+### 4. The Maze
+To solve the problem of finding the shortest path in a maze represented as a 2D grid, use Breadth-First Search (BFS). BFS is ideal for this type of problem because it explores all possible paths in layers and guarantees that the first time a destination is reached, it is via the shortest path.
+
+#### Steps
+1. Initialize a queue and add the starting point with 0 steps.
+2. Initialize a visited array to keep track of the cells that have already been visited.
+3. Perform BFS, exploring the 4 possible directions (up, down, left, right).
+4. If you reach the destination, return the number of steps taken.
+5. If the queue is exhausted and the destination is not reached, return -1.

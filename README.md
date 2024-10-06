@@ -194,6 +194,7 @@ Graph Traversal and Pathfinding Problems.
   - Number of Islands
   - Shortest Path in Binary Matrix
   - Longest Path in a Matrix
+  - The Maze
 
 
 ## 2. Arrays
