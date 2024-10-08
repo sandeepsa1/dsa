@@ -6,6 +6,7 @@ Samples included are;
 2. <b>Shortest Path in Binary Matrix</b>: Given an n x n binary matrix, find the length of the shortest clear path from the top-left corner to the bottom-right corner.
 3. <b>Longest Path in a Matrix</b>: Given an m x n matrix of integers, find the length of the longest increasing path in the matrix.
 4. <b>The Maze</b>: Given a maze represented as a 2D grid, find the shortest path from the start to the destination.
+5. <b>Clone Graph</b>: Given a reference to a node in a connected undirected graph, return a deep copy (clone) of the graph.
 
 
 ### 1. Number of Islands
@@ -54,3 +55,10 @@ To solve the problem of finding the shortest path in a maze represented as a 2D 
 3. Perform BFS, exploring the 4 possible directions (up, down, left, right).
 4. If you reach the destination, return the number of steps taken.
 5. If the queue is exhausted and the destination is not reached, return -1.
+
+### 5. Clone Graph
+To clone a connected undirected graph, traverse the original graph and make a deep copy of every node and its edges. A common approach to this problem is using either Depth-First Search (DFS) or Breadth-First Search (BFS).
+
+#### Steps
+1. If the node has already been visited, return its clone.
+2. If the node hasn't been visited, create a clone and recursively clone its neighbors.
