@@ -57,7 +57,7 @@ To solve the problem of finding the shortest path in a maze represented as a 2D 
 5. If the queue is exhausted and the destination is not reached, return -1.
 
 ### 5. Clone Graph
-To clone a connected undirected graph, traverse the original graph and make a deep copy of every node and its edges. A common approach to this problem is using either Depth-First Search (DFS) or Breadth-First Search (BFS).
+To clone a connected undirected graph, traverse the original graph and make a deep copy of every node and its edges. A common approach to this problem is using either Depth-First Search (DFS) or Breadth-First Search (BFS) algorithm.
 
 #### Steps
 1. If the node has already been visited, return its clone.
