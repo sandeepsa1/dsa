@@ -7,6 +7,7 @@ Samples included are;
 3. <b>Longest Path in a Matrix</b>: Given an m x n matrix of integers, find the length of the longest increasing path in the matrix.
 4. <b>The Maze</b>: Given a maze represented as a 2D grid, find the shortest path from the start to the destination.
 5. <b>Clone Graph</b>: Given a reference to a node in a connected undirected graph, return a deep copy (clone) of the graph.
+6. <b>Word Ladder</b>: Given two words (start and end) and a dictionary, find the length of the shortest transformation sequence from start to end.
 
 
 ### 1. Number of Islands
@@ -62,3 +63,16 @@ To clone a connected undirected graph, traverse the original graph and make a de
 #### Steps
 1. If the node has already been visited, return its clone.
 2. If the node hasn't been visited, create a clone and recursively clone its neighbors.
+
+### 6. Word Ladder
+To solve the problem of finding the shortest transformation sequence from a start word to an end word by changing one letter at a time, where each transformed word must be present in a given dictionary (or word list), Breadth-First Search can be used. BFS is suitable here because it finds the shortest path in an unweighted graph, where each word represents a node, and edges represent valid one-letter transformations.
+
+#### Steps
+1. Breadth-First Search (BFS):
+    - Treat each word as a node in a graph. Use BFS to explore all possible transformations level by level, ensuring you get the shortest path.
+2. Queue:
+    - Maintain a queue where each entry is a tuple (current word, current length of transformation sequence).
+3. Visited Set:
+    - Track the words that have already been visited to avoid revisiting and infinite loops.
+4. Word Pattern Matching:
+    - For each word, generate all possible intermediate words by replacing each letter with * (wildcard), and use these patterns to quickly find neighbors (words that differ by one letter).

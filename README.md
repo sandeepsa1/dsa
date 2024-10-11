@@ -196,6 +196,7 @@ Graph Traversal and Pathfinding Problems.
   - Longest Path in a Matrix
   - The Maze
   - Clone Graph
+  - Word Ladder
 
 
 ## 2. Arrays
