@@ -8,6 +8,7 @@ Samples included are;
 4. <b>The Maze</b>: Given a maze represented as a 2D grid, find the shortest path from the start to the destination.
 5. <b>Clone Graph</b>: Given a reference to a node in a connected undirected graph, return a deep copy (clone) of the graph.
 6. <b>Word Ladder</b>: Given two words (start and end) and a dictionary, find the length of the shortest transformation sequence from start to end.
+7. <b>Reconstruct Itinerary</b>: Given a list of airline tickets represented as pairs of departure and arrival airports, reconstruct the itinerary in order.
 
 
 ### 1. Number of Islands
@@ -76,3 +77,14 @@ To solve the problem of finding the shortest transformation sequence from a star
     - Track the words that have already been visited to avoid revisiting and infinite loops.
 4. Word Pattern Matching:
     - For each word, generate all possible intermediate words by replacing each letter with * (wildcard), and use these patterns to quickly find neighbors (words that differ by one letter).
+
+### 7. Reconstruct Itinerary
+The problem of reconstructing an itinerary from a list of airline tickets can be solved using Depth-First Search (DFS), given the constraints that the itinerary must follow the lexicographically smallest order when multiple airports are possible.
+
+#### Steps
+1. Graph Representation:
+    - Model the tickets as a directed graph where each airport is a node, and each ticket is a directed edge from the departure airport to the arrival airport.
+2. DFS with Lexicographic Order:
+    - Use DFS to construct the itinerary. Since multiple tickets may exist from a single airport, explore them in lexicographically smallest order, meaning the destinations need to be sorted.
+3. Hierholzer's Algorithm (Postorder DFS for Eulerian Path):
+    - Since all edges to be visited exactly once (each ticket is used exactly once), this is similar to finding an Eulerian path. Use post-order DFS and add airports to the result list once we've used all tickets from a specific airport.
