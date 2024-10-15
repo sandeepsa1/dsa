@@ -9,7 +9,7 @@ Samples included are;
 5. <b>Clone Graph</b>: Given a reference to a node in a connected undirected graph, return a deep copy (clone) of the graph.
 6. <b>Word Ladder</b>: Given two words (start and end) and a dictionary, find the length of the shortest transformation sequence from start to end.
 7. <b>Reconstruct Itinerary</b>: Given a list of airline tickets represented as pairs of departure and arrival airports, reconstruct the itinerary in order.
-8. <b>Alien Dictionary</b>: Given a list of words from the alien language, determine the order of characters in the alien language
+8. <b>Alien Dictionary</b>: Given a list of words from the alien language, determine the order of characters in the alien language.
 
 
 ### 1. Number of Islands
