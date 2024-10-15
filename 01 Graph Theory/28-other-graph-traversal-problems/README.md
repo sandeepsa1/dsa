@@ -9,6 +9,7 @@ Samples included are;
 5. <b>Clone Graph</b>: Given a reference to a node in a connected undirected graph, return a deep copy (clone) of the graph.
 6. <b>Word Ladder</b>: Given two words (start and end) and a dictionary, find the length of the shortest transformation sequence from start to end.
 7. <b>Reconstruct Itinerary</b>: Given a list of airline tickets represented as pairs of departure and arrival airports, reconstruct the itinerary in order.
+8. <b>Alien Dictionary</b>: Given a list of words from the alien language, determine the order of characters in the alien language
 
 
 ### 1. Number of Islands
@@ -88,3 +89,11 @@ The problem of reconstructing an itinerary from a list of airline tickets can be
     - Use DFS to construct the itinerary. Since multiple tickets may exist from a single airport, explore them in lexicographically smallest order, meaning the destinations need to be sorted.
 3. Hierholzer's Algorithm (Postorder DFS for Eulerian Path):
     - Since all edges to be visited exactly once (each ticket is used exactly once), this is similar to finding an Eulerian path. Use post-order DFS and add airports to the result list once we've used all tickets from a specific airport.
+
+### 8. Alien Dictionary
+The problem of reconstructing an itinerary from a list of airline tickets can be solved using Depth-First Search (DFS), given the constraints that the itinerary must follow the lexicographically smallest order when multiple airports are possible.
+
+#### Steps
+1. Build a graph from the list of words by comparing adjacent words and adding directed edges based on character order.
+2. Perform topological sorting using BFS (Kahn’s Algorithm) or DFS.
+3. If the topological sort is valid, return the character order. Otherwise, return an empty string.
