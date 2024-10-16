@@ -36,6 +36,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [26-maximum-spanning-tree-kruskal](#26-maximum-spanning-tree-kruskal)
   - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)
   - [28-other-graph-traversal-problems](#28-other-graph-traversal-problems)
+  - [29-cycle-detection-sort-and-graph-properties](#29-cycle-detection-sort-and-graph-properties)
 </details>
 
 <details>
@@ -199,6 +200,10 @@ Graph Traversal and Pathfinding Problems.
   - Word Ladder
   - Reconstruct Itinerary
   - Alien Dictionary
+
+### 29-cycle-detection-sort-and-graph-properties
+Cycle Detection, Topological Sorting, and Graph Properties.
+  - Graph Coloring
 
 
 ## 2. Arrays
