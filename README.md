@@ -204,6 +204,7 @@ Graph Traversal and Pathfinding Problems.
 ### 29-cycle-detection-sort-and-graph-properties
 Cycle Detection, Topological Sorting, and Graph Properties.
   - Graph Coloring
+  - DFS-Based Cycle Detection
 
 
 ## 2. Arrays
