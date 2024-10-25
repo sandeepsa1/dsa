@@ -36,7 +36,6 @@ graph = [
     (2, 0),
     (3, 4)
 ]
-
 num_nodes = 5
 
 if hasCycle(graph, num_nodes):

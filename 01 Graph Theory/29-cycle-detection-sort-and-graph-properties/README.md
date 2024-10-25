@@ -29,7 +29,7 @@ To detect cycles in a directed graph using Depth-First Search (DFS), perform a t
 5. After processing the current node, remove it from the recursion stack.
 
 ### 3. Union-Find Based Cycle Detection
-To detect cycles in an undirected graph using the Union-Find (Disjoint Set) data structure, we follow below steps.
+To detect cycles in an undirected graph using the Union-Find (Disjoint Set) data structure, follow below steps.
 
 #### Steps
 1. Union-Find Structure:
