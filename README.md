@@ -206,6 +206,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
   - Graph Coloring
   - DFS-Based Cycle Detection
   - Union-Find Based Cycle Detection
+  - Find the Town Judge
 
 
 ## 2. Arrays

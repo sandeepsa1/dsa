@@ -5,6 +5,8 @@ Samples included are;
 1. <b>Graph Coloring</b>: Assign colors to nodes such that no two adjacent nodes have the same color using a greedy approach.
 2. <b>DFS-Based Cycle Detection</b>: Detect cycles in a directed graph using DFS.
 3. <b>Union-Find Based Cycle Detection</b>: Detect cycles in an undirected graph using union-find data structure.
+4. <b>Find the Town Judge</b>: In a town of n people, there is exactly one person who is trusted by everyone else but trusts no one. Find the town judge.
+
 
 
 ### 1. Graph Coloring
@@ -38,3 +40,13 @@ To detect cycles in an undirected graph using the Union-Find (Disjoint Set) data
     - For each edge in the graph, check if the two nodes are in the same connected component (i.e., they have the same root). If they are, it means adding this edge would create a cycle. If they are not, we perform a union operation to connect the components.
 3. Cycle Detection:
     - If we find an edge connecting two nodes that are already in the same connected component, we have detected a cycle.
+
+### 4. Find the Town Judge
+To identify the town judge, find a person who is trusted by everyone else but does not trust anyone.
+
+#### Steps
+1. Initialize an array trust_count to keep track of each person’s trust status.
+2. If person a trusts person b, then:
+    - Decrease trust_count[a] by 1 (since a trusts someone else).
+    - Increase trust_count[b] by 1 (since b is trusted by a).
+3. After processing all trust relationships, the town judge should be the person with trust_count[i] == n - 1, meaning they’re trusted by everyone else but trust no one themselves.
