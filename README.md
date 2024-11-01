@@ -207,6 +207,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
   - DFS-Based Cycle Detection
   - Union-Find Based Cycle Detection
   - Find the Town Judge
+  - Minimum Height Trees
 
 
 ## 2. Arrays

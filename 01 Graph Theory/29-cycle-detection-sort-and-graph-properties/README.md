@@ -6,6 +6,7 @@ Samples included are;
 2. <b>DFS-Based Cycle Detection</b>: Detect cycles in a directed graph using DFS.
 3. <b>Union-Find Based Cycle Detection</b>: Detect cycles in an undirected graph using union-find data structure.
 4. <b>Find the Town Judge</b>: In a town of n people, there is exactly one person who is trusted by everyone else but trusts no one. Find the town judge.
+5. <b>Minimum Height Trees</b>: Given a tree of n nodes labeled from 0 to n-1, find all possible root nodes of a minimum height tree.
 
 
 
@@ -50,3 +51,15 @@ To identify the town judge, find a person who is trusted by everyone else but do
     - Decrease trust_count[a] by 1 (since a trusts someone else).
     - Increase trust_count[b] by 1 (since b is trusted by a).
 3. After processing all trust relationships, the town judge should be the person with trust_count[i] == n - 1, meaning they’re trusted by everyone else but trust no one themselves.
+
+### 5. Minimum Height Trees
+To find all possible root nodes of a minimum height tree (MHT) in a given tree with n nodes labeled from 0 to n−1, use a "topological trim" approach. This method progressively removes leaves (nodes with only one connection) from the graph until only one or two nodes remain. These nodes are the centers of the tree, which yield the minimum height when used as roots.
+
+#### Steps
+1. Edge Case: If n=1, the only node is the root of the minimum height tree.
+2. Initialize the Graph: Use an adjacency list to represent the tree, and record the degree (number of connections) of each node.
+3. Identify Initial Leaves: Collect all nodes with only one edge (these are the initial leaves).
+4. Topological Trimming:
+    - Iteratively remove the current leaves, reducing the degree of their neighboring nodes.
+    - Add any neighbors that become leaves (degree of 1) to the new leaves list.
+    - Repeat until only one or two nodes remain, which are the possible roots for minimum height trees.
