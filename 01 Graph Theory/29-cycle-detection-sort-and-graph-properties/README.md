@@ -7,6 +7,7 @@ Samples included are;
 3. <b>Union-Find Based Cycle Detection</b>: Detect cycles in an undirected graph using union-find data structure.
 4. <b>Find the Town Judge</b>: In a town of n people, there is exactly one person who is trusted by everyone else but trusts no one. Find the town judge.
 5. <b>Minimum Height Trees</b>: Given a tree of n nodes labeled from 0 to n-1, find all possible root nodes of a minimum height tree.
+6. <b>Number of Connected Components in an Undirected Graph</b>: Given an undirected graph with n nodes and a list of edges, find the number of connected components.
 
 
 
@@ -63,3 +64,13 @@ To find all possible root nodes of a minimum height tree (MHT) in a given tree w
     - Iteratively remove the current leaves, reducing the degree of their neighboring nodes.
     - Add any neighbors that become leaves (degree of 1) to the new leaves list.
     - Repeat until only one or two nodes remain, which are the possible roots for minimum height trees.
+
+### 6. Number of Connected Components in an Undirected Graph
+To find the number of connected components in an undirected graph, use Depth-First Search (DFS) or Breadth-First Search (BFS) to traverse the graph. Each time a new traversal begins from an unvisited node, it indicates a new connected component.
+
+#### Steps
+1. Build an Adjacency List: Represent the graph using an adjacency list for efficient traversal.
+2. Initialize Visited Set: Keep track of visited nodes to avoid counting the same component multiple times.
+3. Traverse the Graph:
+    - For each unvisited node, start a DFS (or BFS). This will visit all nodes in that component.
+    - Increment the count of connected components each time you start a traversal from an unvisited node.
