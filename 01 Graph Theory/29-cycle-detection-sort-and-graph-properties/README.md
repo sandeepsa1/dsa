@@ -8,6 +8,7 @@ Samples included are;
 4. <b>Find the Town Judge</b>: In a town of n people, there is exactly one person who is trusted by everyone else but trusts no one. Find the town judge.
 5. <b>Minimum Height Trees</b>: Given a tree of n nodes labeled from 0 to n-1, find all possible root nodes of a minimum height tree.
 6. <b>Number of Connected Components in an Undirected Graph</b>: Given an undirected graph with n nodes and a list of edges, find the number of connected components.
+7. <b>Course Schedule</b>: There are numCourses courses you have to take, numbered from 0 to numCourses-1. Some courses have prerequisites. Determine if it is possible to finish all courses.
 
 
 
@@ -74,3 +75,17 @@ To find the number of connected components in an undirected graph, use Depth-Fir
 3. Traverse the Graph:
     - For each unvisited node, start a DFS (or BFS). This will visit all nodes in that component.
     - Increment the count of connected components each time you start a traversal from an unvisited node.
+
+### 7. Course Schedule
+To determine if it's possible to finish all courses given their prerequisites, this problem can be thought of as checking for cycles in a directed graph. Each course is a node, and each prerequisite is a directed edge from one course to another. If there's a cycle in the graph, it's impossible to complete all courses; otherwise, it's feasible.
+
+#### Steps
+1. Graph Representation: Represent the courses and their prerequisites as a directed graph using an adjacency list.
+2. Cycle Detection with Topological Sort:
+    - Use Kahn’s Algorithm (BFS approach) to perform topological sorting by counting in-degrees of each node.
+    - Alternatively, use DFS with a recursion stack to detect cycles directly.
+3. Topological Sort via BFS:
+    - Initialize an in-degree count for each course.
+    - Start from courses with an in-degree of 0 (those without prerequisites).
+    - Reduce the in-degree of neighboring nodes and add them to the queue when their in-degree becomes 0.
+    - If all nodes are processed (i.e., all courses can be taken in order), return True; otherwise, return False.

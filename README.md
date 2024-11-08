@@ -209,6 +209,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
   - Find the Town Judge
   - Minimum Height Trees
   - Number of Connected Components in an Undirected Graph
+  - Course Schedule
 
 
 ## 2. Arrays
