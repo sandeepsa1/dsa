@@ -37,6 +37,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [27-minimum-cost-max-flow-using-sspa](#27-minimum-cost-max-flow-using-sspa)
   - [28-other-graph-traversal-problems](#28-other-graph-traversal-problems)
   - [29-cycle-detection-sort-and-graph-properties](#29-cycle-detection-sort-and-graph-properties)
+  - [30-graph-optimization-and-network-flow](#30-graph-optimization-and-network-flow)
 </details>
 
 <details>
@@ -210,6 +211,9 @@ Cycle Detection, Topological Sorting, and Graph Properties.
   - Minimum Height Trees
   - Number of Connected Components in an Undirected Graph
   - Course Schedule
+
+### 30-graph-optimization-and-network-flow
+  - Network Delay Time
 
 
 ## 2. Arrays
