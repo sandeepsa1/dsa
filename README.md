@@ -214,6 +214,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
 
 ### 30-graph-optimization-and-network-flow
   - Network Delay Time
+  - Critical Connections in a Network
 
 
 ## 2. Arrays
