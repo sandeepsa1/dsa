@@ -38,6 +38,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [28-other-graph-traversal-problems](#28-other-graph-traversal-problems)
   - [29-cycle-detection-sort-and-graph-properties](#29-cycle-detection-sort-and-graph-properties)
   - [30-graph-optimization-and-network-flow](#30-graph-optimization-and-network-flow)
+  - [31-graph-representations-conversion](#31-graph-representations-conversion)
 </details>
 
 <details>
@@ -215,6 +216,9 @@ Cycle Detection, Topological Sorting, and Graph Properties.
 ### 30-graph-optimization-and-network-flow
   - Network Delay Time
   - Critical Connections in a Network
+
+### 31-graph-representations-conversion
+  - Adjacency Matrix to Adjacency List
 
 
 ## 2. Arrays
