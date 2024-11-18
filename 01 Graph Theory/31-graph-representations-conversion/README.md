@@ -8,3 +8,4 @@ Converting between different graph representations. Transform between Adjacency 
 
 ### Conversions
 1. <b>Adjacency Matrix to Adjacency List</b>
+2. <b>Adjacency List to Adjacency Matrix</b>
