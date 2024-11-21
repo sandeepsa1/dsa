@@ -220,6 +220,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
 ### 31-graph-representations-conversion
   - Adjacency Matrix to Adjacency List
   - Adjacency List to Adjacency Matrix
+  - Adjacency List to Edge List
 
 
 ## 2. Arrays
