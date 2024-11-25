@@ -11,3 +11,4 @@ Converting between different graph representations. Transform between Adjacency 
 2. <b>Adjacency List to Adjacency Matrix</b>
 3. <b>Adjacency List to Edge List</b>
 4. <b>Edge List to Adjacency List</b>
+4. <b>Edge List to Adjacency Matrix</b>

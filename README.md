@@ -222,6 +222,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
   - Adjacency List to Adjacency Matrix
   - Adjacency List to Edge List
   - Edge List to Adjacency List
+  - Edge List to Adjacency Matrix
 
 
 ## 2. Arrays
