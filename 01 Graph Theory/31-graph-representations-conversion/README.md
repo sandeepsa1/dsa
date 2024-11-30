@@ -8,7 +8,8 @@ Converting between different graph representations. Transform between Adjacency 
 
 ### Conversions
 1. <b>Adjacency Matrix to Adjacency List</b>
-2. <b>Adjacency List to Adjacency Matrix</b>
-3. <b>Adjacency List to Edge List</b>
-4. <b>Edge List to Adjacency List</b>
-4. <b>Edge List to Adjacency Matrix</b>
+2. <b>Adjacency Matrix to Edge List</b>
+3. <b>Adjacency List to Adjacency Matrix</b>
+4. <b>Adjacency List to Edge List</b>
+5. <b>Edge List to Adjacency List</b>
+6. <b>Edge List to Adjacency Matrix</b>
