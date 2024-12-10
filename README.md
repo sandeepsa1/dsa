@@ -210,7 +210,7 @@ Cycle Detection, Topological Sorting, and Graph Properties.
   - Union-Find Based Cycle Detection
   - Find the Town Judge
   - Minimum Height Trees
-  - Number of Connected Components in an Undirected Graph 
+  - Number of Connected Components in an Undirected Graph
   - Course Schedule
 
 ### 30-graph-optimization-and-network-flow
