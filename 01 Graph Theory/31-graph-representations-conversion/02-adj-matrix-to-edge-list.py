@@ -14,4 +14,4 @@ adj_matrix = [
     [0, 1, 0, 0],
     [0, 1, 0, 0]
 ]
-print(adj_matrix_to_edge_list(adj_matrix)) # [(0, 1), (1, 2), (1, 3)] 
+print(adj_matrix_to_edge_list(adj_matrix)) # [(0, 1), (1, 2), (1, 3)]
