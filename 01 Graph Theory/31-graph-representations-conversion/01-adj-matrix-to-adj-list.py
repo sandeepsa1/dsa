@@ -14,4 +14,4 @@ adj_matrix = [
     [0, 1, 0, 0],
     [0, 1, 0, 0]
 ]
-print(adj_matrix_to_adj_list(adj_matrix)) # [[1], [0, 2, 3], [1], [1]] 
+print(adj_matrix_to_adj_list(adj_matrix)) # [[1], [0, 2, 3], [1], [1]]
