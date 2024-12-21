@@ -8,4 +8,4 @@ def adj_list_to_adj_matrix(adj_list):
 
 
 adj_list = [[1], [0, 2, 3], [1], [1]]
-print(adj_list_to_adj_matrix(adj_list)) # [[0, 1, 0, 0], [1, 0, 1, 1], [0, 1, 0, 0], [0, 1, 0, 0]] 
+print(adj_list_to_adj_matrix(adj_list)) # [[0, 1, 0, 0], [1, 0, 1, 1], [0, 1, 0, 0], [0, 1, 0, 0]]
