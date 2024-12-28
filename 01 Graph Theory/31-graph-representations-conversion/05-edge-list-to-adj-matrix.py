@@ -7,4 +7,4 @@ def edge_list_to_adj_matrix(edge_list, n):
 
 
 edge_list = [(0, 1), (1, 2), (1, 3)]
-print(edge_list_to_adj_matrix(edge_list, 4)) # [0, 1, 0, 0], [1, 0, 1, 1], [0, 1, 0, 0], [0, 1, 0, 0]]
+print(edge_list_to_adj_matrix(edge_list, 4)) # [0, 1, 0, 0], [1, 0, 1, 1], [0, 1, 0, 0], [0, 1, 0, 0]] 
