@@ -111,6 +111,12 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   - [05-with-multiple-arrays](#05-with-multiple-arrays)
 </details>
 
+<details>
+  <summary>09 Sets and Maps</summary>
+  
+  - [01-set-operations](#01-set-operations)
+</details>
+
 
 ## 1. Graph Theory
 
@@ -480,3 +486,9 @@ Implement tree traversal algorithms.
   - Intersection of Two Arrays
   - Longest Consecutive Sequence
   - Four Sum II
+
+
+## 9. Sets and Maps
+
+### 01-set-operations
+  - Union, Intersection, Difference
