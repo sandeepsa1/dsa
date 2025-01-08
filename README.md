@@ -492,3 +492,4 @@ Implement tree traversal algorithms.
 
 ### 01-set-operations
   - Union, Intersection, Difference
+  - Symmetric Difference of Sets, Subset Check, Superset Check, Set Comprehensions
