@@ -115,6 +115,7 @@ The entire `dsa` folder is organized as a single virtual environment. You can ei
   <summary>09 Sets and Maps</summary>
   
   - [01-set-operations](#01-set-operations)
+  - [02-dictionary-operations](#02-dictionary-operations)
 </details>
 
 
@@ -493,3 +494,6 @@ Implement tree traversal algorithms.
 ### 01-set-operations
   - Union, Intersection, Difference
   - Symmetric Difference of Sets, Subset Check, Superset Check, Set Comprehensions
+
+### 02-dictionary-operations
+  - Insert, Update, Delete, Check
