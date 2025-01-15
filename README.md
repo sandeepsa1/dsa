@@ -497,3 +497,4 @@ Implement tree traversal algorithms.
 
 ### 02-dictionary-operations
   - Insert, Update, Delete, Check
+  - Fetch Values and Iterations
