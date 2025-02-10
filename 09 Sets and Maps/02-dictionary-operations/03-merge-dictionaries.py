@@ -12,4 +12,4 @@ print(merged)  # {'a': 1, 'b': 20, 'c': 3, 'd': 4}
 
 # Method 3: Using |
 merged = dict1 | dict2
-print(merged)  # {'a': 1, 'b': 20, 'c': 3, 'd': 4}
+print(merged)  # {'a': 1, 'b': 20, 'c': 3, 'd': 4} 
