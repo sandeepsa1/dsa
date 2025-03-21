@@ -8,7 +8,7 @@ def dfs(graph, start, end, visited, path):
             if dfs(graph, neighbor, end, visited, path):
                 return True  # Path found
     path.pop()  # Backtrack
-    return False  # Path not found 
+    return False  # Path not found
 
 # Example usage:
 graph = {
