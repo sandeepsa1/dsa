@@ -1,27 +1,27 @@
-import matplotlib.pyplot as plt
-import networkx as nx
+from collections import defaultdict
 
-def dfs(graph, node, visited, spanning_tree):
+def add_edge(graph, u, v):
+    graph[u].append(v)
+    graph[v].append(u)  # Undirected graph
+
+def dfs_spanning_tree(graph, node, visited, spanning_tree):
     visited.add(node)
     for neighbor in graph[node]:
         if neighbor not in visited:
-            spanning_tree.add_edge(node, neighbor)
-            dfs(graph, neighbor, visited, spanning_tree)
+            spanning_tree.append((node, neighbor))
+            dfs_spanning_tree(graph, neighbor, visited, spanning_tree)
+
+def get_spanning_tree(graph, start_node):
+    visited = set()
+    spanning_tree = []
+    dfs_spanning_tree(graph, start_node, visited, spanning_tree)
+    return spanning_tree
 
 
-G = nx.Graph()
-G.add_edges_from([(1, 2), (1, 3), (2, 4), (2, 5), (3, 6), (3, 7)])
+graph = defaultdict(list)
+edges = [(0, 1), (0, 2), (1, 3), (1, 4), (2, 4)]
+for u, v in edges:
+    add_edge(graph, u, v)
 
-# Initialize visited set and spanning tree
-visited = set()
-spanning_tree = nx.Graph()
-
-# Start DFS from an arbitrary node
-start_node = list(G.nodes())[0]
-dfs(G, start_node, visited, spanning_tree)
-
-# Display the spanning tree
-pos = nx.spring_layout(spanning_tree)  # Define node positions
-nx.draw(spanning_tree, pos, with_labels=True, node_size=500, node_color='lightblue', font_size=12, font_weight='bold', edge_color='black')
-plt.title('Spanning Tree')
-plt.show()
+spanning_tree = get_spanning_tree(graph, 0)
+print("DFS Spanning Tree edges:", spanning_tree) # [(0, 1), (1, 3), (1, 4), (4, 2)]
