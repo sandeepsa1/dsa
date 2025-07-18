@@ -1,3 +1,5 @@
+# Given a 2D grid representing pixel values in RGB, and a seed point, expand the region by
+# including neighboring pixels with values close enough (within a threshold).
 import math
 
 def region_grow_rgb_dfs(image, sr, sc, threshold):
@@ -34,15 +36,15 @@ def region_grow_rgb_dfs(image, sr, sc, threshold):
 
 
 image = [
-    [(255, 0, 0), (254, 0, 0), (200, 0, 0)],
-    [(255, 1, 1), (255, 0, 0), (100, 100, 100)],
+    [(100, 0, 0), (254, 0, 0), (200, 0, 0)],
+    [(255, 1, 1), (100, 0, 0), (100, 100, 100)],
     [(250, 2, 2), (255, 0, 0), (0, 0, 255)]
 ]
 
 # Run region growing from pixel (0, 0) with RGB threshold = 10
-region = region_grow_rgb_dfs(image, 0, 0, threshold=10)
+region = region_grow_rgb_dfs(image, 0, 0, threshold=50)
 
 for row in region:
-    print(row)      # [1, 1, 0]
-                    # [1, 1, 0]
-                    # [1, 1, 0]
+    print(row)      # [1, 0, 0]
+                    # [0, 1, 0]
+                    # [0, 0, 0]
