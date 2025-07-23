@@ -37,3 +37,6 @@ graph = {
     'F': ['C', 'E', 'G'],
     'G': ['F']
 }
+
+suggested = suggest_friends(graph, 'A')
+print("Friend Suggestions for A:", suggested) # {'D': 1, 'E': 1, 'F': 1}
