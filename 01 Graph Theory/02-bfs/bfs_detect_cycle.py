@@ -27,4 +27,12 @@ graph_with_cycle = {
     'D': ['C', 'A']  # A cycle: A-B-C-D-A
 }
 
+graph_without_cycle = {
+    'A': ['B'],
+    'B': ['A', 'C'],
+    'C': ['B'],
+    'D': []
+}
+
 print("Cycle in graph_with_cycle?", has_cycle_bfs(graph_with_cycle))   # True
+print("Cycle in graph_without_cycle?", has_cycle_bfs(graph_without_cycle)) # False
