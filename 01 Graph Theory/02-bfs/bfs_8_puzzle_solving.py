@@ -33,9 +33,9 @@ def bfs_puzzle(start, goal):
     return None
 
 
-start_state = (1, 2, 3,
-               4, 0, 5,
-               6, 7, 8)
+start_state = (8, 2, 7,
+               4, 5, 0,
+               6, 3, 1)
 
 goal_state = (1, 2, 3,
               4, 5, 6,
