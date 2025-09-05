@@ -36,3 +36,4 @@ def min_operations_string(start, target):
 
 
 print(min_operations_string("cat", "dog")) # 3 (cat → dat → dot → dog)
+print(min_operations_string("ab", "cd")) # 2
