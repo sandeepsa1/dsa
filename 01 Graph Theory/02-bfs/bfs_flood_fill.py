@@ -24,9 +24,9 @@ def flood_fill_bfs(image, sr, sc, new_color):
 
 
 image = [
-    [1, 1, 0, 2],
-    [1, 0, 0, 2],
-    [1, 1, 0, 2]
+    [1, 1, 0, 1],
+    [1, 3, 0, 2],
+    [1, 2, 0, 2]
 ]
 
 sr, sc = 0, 0  # starting point
