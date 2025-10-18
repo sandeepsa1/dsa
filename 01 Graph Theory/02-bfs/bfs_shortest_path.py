@@ -33,15 +33,6 @@ graph = {
     'J': ['K']
 }
 
-'''graph = {
-    'A': ['B', 'C'],
-    'B': ['A', 'D', 'E'],
-    'C': ['A', 'F'],
-    'D': ['B'],
-    'E': ['B', 'F'],
-    'F': ['C', 'E']
-}'''
-
 start_node = 'A'
 end_node = 'K'
 shortest_path = bfs_shortest_path(graph, start_node, end_node)
