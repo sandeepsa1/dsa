@@ -4,13 +4,11 @@ def jump(nums):
     farthest = 0
     
     for i in range(len(nums) - 1):
-        # Track how far we can reach
         farthest = max(farthest, i + nums[i])
         
-        # When we reach the end of the current "level"
         if i == current_end:
-            jumps += 1          # We complete one BFS layer
-            current_end = farthest  # Move to next layer
+            jumps += 1
+            current_end = farthest
             
             if current_end >= len(nums) - 1:
                 break
@@ -20,4 +18,4 @@ def jump(nums):
 
 nums = [2,3,1,1,4]
 res = jump(nums)
-print(res) # 2
+print(res) # 2 0→1→4 Minimum number of jumps to reach the last index
