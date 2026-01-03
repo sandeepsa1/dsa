@@ -35,4 +35,4 @@ times = [
 n = 4
 k = 2
 
-print(networkDelayTime(times, n, k))
+print(networkDelayTime(times, n, k)) # 2
