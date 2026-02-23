@@ -2,9 +2,6 @@
 Dijkstra's algorithm is a graph search algorithm used to find the shortest path between nodes in a weighted graph. The algorithm works by iteratively selecting the node with the smallest known distance from the source and updating the distances of its adjacent nodes.</br>
 Dijkstra's algorithm can handle both directed and undirected graphs, but it requires non-negative edge weights. If the graph contains negative edge weights, other algorithms like Bellman-Ford may be more appropriate.</br>
 
-1. Time complexity: O(V logV + E)
-2. Space complexity: O(V + E)
-
 ### Uses
 It's commonly used in many applications, including computer networking (routing protocols), GPS systems, and various optimization problems.
 
